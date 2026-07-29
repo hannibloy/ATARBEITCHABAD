@@ -1,0 +1,2157 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>בונים מחדש את מתחם האירוח — בית חב"ד הערבה</title>
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kampainbeitchabadarava.netlify.app/">
+<meta property="og:title" content='בונים מחדש את מתחם האירוח — בית חב"ד הערבה'>
+<meta property="og:description" content="הסופה הרסה את המתחם שאירח אלפי מטיילי שביל ישראל. עזרו לנו לבנות אותו מחדש לפני העונה — כל תרומה בונה: לינה, סעודות שבת, מקלחת ופינת קפה 💛">
+<meta property="og:image" content="https://kampainbeitchabadarava.netlify.app/share.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="description" content="הסופה הרסה את מתחם האירוח של בית חב&quot;ד הערבה — התחנה החמה של מטיילי שביל ישראל. עזרו לנו לבנות אותו מחדש לפני העונה: לינה, סעודות בצוותא, מקלחת ופינת שתייה. יעד: 200,000 ₪">
+<link rel="canonical" href="https://kampainbeitchabadarava.netlify.app/">
+<meta name="robots" content="index,follow">
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#6f4423">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content='חב"ד ערבה'>
+<meta property="og:site_name" content='בית חב"ד הערבה'>
+<meta property="og:locale" content="he_IL">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700;900&family=Varela+Round&family=Rubik:wght@300;400;500;700&family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+<style>
+  /* ===== אותה פלטה של האתר: חום-מדבר, קרם, שמיים, כתום שביל ===== */
+  /* ★ זיפ 78 לבקשת חני (29/07): תיבת "אין ספונסר" — מסגרת זהב בולטת עם
+     פעימת זוהר עדינה שמושכת את העין. מכבד prefers-reduced-motion. */
+  .nospon{
+    max-width:680px; margin:0 auto 28px; background:var(--cream);
+    border:3px solid #c9a24b; border-radius:16px; padding:20px 22px;
+    text-align:center; position:relative;
+    animation:nosponPulse 2.8s ease-in-out infinite;
+  }
+  @keyframes nosponPulse{
+    0%,100%{ box-shadow:0 0 0 0 rgba(201,162,75,.55); border-color:#c9a24b; }
+    50%{ box-shadow:0 0 22px 6px rgba(201,162,75,.30); border-color:#e0bd6a; }
+  }
+  @media (prefers-reduced-motion: reduce){ .nospon{ animation:none; box-shadow:0 3px 14px rgba(201,162,75,.35); } }
+  :root{
+    --brown:#6f4423;
+    --brown-dark:#4a2c14;
+    --brown-soft:#8a5a33;
+    --sand:#cbb187;
+    --sand-light:#e6d7bc;
+    --cream:#faf6ee;
+    --cream-deep:#f0e7d6;
+    --sky:#8fc1e3;
+    --sky-deep:#3d84bd;
+    --ink:#33261a;
+    --trail-orange:#f07b3f;
+    --orange-deep:#d95f2b;
+    --trail-blue:#2f6fb2;
+    --acacia:#7d9b57;
+    --shadow: 0 10px 30px rgba(74,44,20,0.12);
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  @keyframes tiersFlash{0%,100%{box-shadow:none;} 35%{box-shadow:0 0 0 6px rgba(217,95,43,.25) inset;}}
+  .tiers-flash{animation:tiersFlash 1.6s ease;border-radius:18px;}
+  body{
+    font-family:'Rubik', sans-serif;
+    background:var(--cream) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+    color:var(--ink);
+    line-height:1.7;
+  }
+  h1,h2,h3,.display{font-family:'Varela Round','Rubik',sans-serif;}
+  a{color:inherit; text-decoration:none;}
+  img{max-width:100%; display:block;}
+  .container{max-width:1140px; margin:0 auto; padding:0 24px;}
+
+  /* פס סימון שביל ישראל */
+  .trail-mark{
+    display:inline-block; width:46px; height:15px; border-radius:3px; overflow:hidden;
+    background:linear-gradient(180deg, var(--trail-orange) 0 33%, #fff 33% 66%, var(--trail-blue) 66% 100%);
+    box-shadow:0 2px 6px rgba(74,44,20,.25);
+  }
+
+  /* ===== לוגו =====
+     ★ זיפ 53 (23/07): קובץ הלוגו נבנה מחדש כעיגול מלא — תמונת המדבר מכסה את
+     כל המסגרת, בלי שוליים לבנים. העיצוב כאן חזר למקור שעבד מצוין. לא לשנות! */
+  .logo-round{border-radius:50%; box-shadow:0 8px 24px rgba(74,44,20,.28); border:4px solid var(--cream);}
+  .logo-sm{width:44px; height:44px;}
+  .logo-hero{
+    width:clamp(110px, 16vw, 150px); height:auto; margin:0 auto 18px;
+    animation:logoFloat 5s ease-in-out infinite;
+  }
+  @keyframes logoFloat{0%,100%{transform:translateY(0);}50%{transform:translateY(-8px);}}
+  .logo-footer{width:88px; margin:0 auto 14px;}
+  @media (prefers-reduced-motion: reduce){.logo-hero{animation:none;}}
+
+  /* באנר שגריר */
+  .amb-banner{
+    display:none; max-width:520px; margin:22px auto 0; background:#fff;
+    border:2px solid var(--acacia); border-radius:50px; padding:10px 26px;
+    font-weight:700; color:var(--brown-dark); box-shadow:var(--shadow); font-size:1rem;
+  }
+  .amb-banner.show{display:inline-block;}
+
+  .section-title{font-size:clamp(1.7rem, 3.5vw, 2.4rem); font-weight:900; color:var(--brown-dark); text-align:center;}
+  .section-sub{text-align:center; max-width:640px; margin:10px auto 0; color:var(--brown-soft); font-size:1.05rem;}
+  /* קו דיונה עדין עם נקודת שמש — מפריד שקט */
+  .divider{
+    width:150px; height:16px; margin:16px auto 0; background:none;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 150 16'%3E%3Cpath d='M4 11 C 28 3, 52 3, 75 9 S 122 15, 146 7' stroke='%23cbb187' fill='none' stroke-width='2.2' stroke-linecap='round'/%3E%3Ccircle cx='75' cy='9' r='3' fill='%23f07b3f'/%3E%3C/svg%3E");
+    background-repeat:no-repeat; background-position:center;
+  }
+  section{padding:72px 0;}
+  .bg-alt{background:var(--cream-deep);}
+  .bg-brown{background:linear-gradient(160deg, var(--brown-dark), var(--brown)); color:var(--cream);}
+  .bg-brown .section-title{color:var(--cream);}
+  .bg-brown .section-sub{color:var(--sand-light);}
+
+  .btn{display:inline-block; padding:14px 34px; font-weight:700; font-size:1rem;
+    border-radius:18px 24px 16px 26px / 24px 16px 26px 18px;
+    outline:2px dashed rgba(255,255,255,.55); outline-offset:-6px;
+    transition:transform .2s, box-shadow .2s, border-radius .3s; cursor:pointer; border:none; font-family:'Rubik',sans-serif;}
+  .btn:hover{border-radius:22px;}
+  .btn-sand{outline-color:rgba(111,68,35,.35);}
+  .btn-ghost{outline:none;}
+  .btn:hover{transform:translateY(-2px); box-shadow:0 12px 28px rgba(74,44,20,.25);}
+  .btn-orange{background:linear-gradient(135deg, var(--trail-orange), var(--orange-deep)); color:#fff;}
+  .btn-sand{background:var(--sand-light); color:var(--brown-dark);}
+  .btn-ghost{background:transparent; color:var(--cream); border:2px solid var(--sand-light);}
+
+  /* ===== HEADER ===== */
+  header.top{
+    position:sticky; top:0; z-index:50; background:rgba(250,246,238,.92); backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--sand-light);
+  }
+  .top-inner{display:flex; align-items:center; justify-content:space-between; padding:12px 24px; max-width:1140px; margin:0 auto;}
+  .brand{display:flex; align-items:center; gap:12px; font-family:'Varela Round','Rubik',sans-serif; font-weight:900; color:var(--brown-dark); font-size:1.1rem;}
+  .top .btn{padding:10px 24px; font-size:.95rem;}
+
+  /* ===== HERO ===== */
+  .hero{
+    position:relative; overflow:hidden; text-align:center; padding:90px 24px 80px;
+    background:
+      radial-gradient(1200px 500px at 50% -10%, rgba(143,193,227,.35), transparent 60%),
+      linear-gradient(180deg, var(--cream) 0%, var(--cream-deep) 100%);
+  }
+  .hero .kicker{
+    font-family:'Amatic SC', cursive; font-size:clamp(1.6rem, 3vw, 2.2rem); color:var(--sky-deep); letter-spacing:.06em;
+  }
+  .hero h1{
+    font-size:clamp(2.2rem, 5.5vw, 3.6rem); font-weight:900; color:var(--brown-dark);
+    max-width:860px; margin:14px auto 0; line-height:1.25;
+  }
+  .hero h1 .accent{color:var(--trail-orange);}
+  .hero p.lead{max-width:660px; margin:22px auto 0; font-size:1.15rem; color:var(--brown-soft);}
+  .hero-ctas{display:flex; gap:14px; justify-content:center; flex-wrap:wrap; margin-top:32px;}
+
+  /* דיונות דקורטיביות */
+  .dunes{position:absolute; inset-inline:0; bottom:-2px; pointer-events:none;}
+  .dunes svg{display:block; width:100%; height:90px;}
+
+  /* ===== מד התקדמות ===== */
+  .meter-wrap{
+    max-width:620px; margin:40px auto 0; background:#fffdf8;
+    border-radius:16px 20px 16px 22px; padding:26px 28px; box-shadow:var(--shadow); text-align:right;
+    border:1px solid var(--sand); outline:2px dashed rgba(111,68,35,.22); outline-offset:-8px;
+  }
+  .meter-top{display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:6px;}
+  .meter-raised{font-family:'Varela Round','Rubik',sans-serif; font-weight:900; font-size:2rem; color:var(--trail-orange);}
+  .meter-goal{color:var(--brown-soft); font-size:.95rem;}
+  .meter-status{color:var(--brown-soft); font-size:.8rem; margin-top:6px; min-height:1em; opacity:.85;}
+  .meter-bar{height:18px; border-radius:10px; background:var(--cream-deep); margin-top:14px; position:relative;}
+  .meter-track{position:absolute; inset:0; border-radius:10px; overflow:hidden;}
+  .meter-fill{
+    height:100%; width:0%; border-radius:10px;
+    background:repeating-linear-gradient(45deg, var(--trail-orange) 0 14px, var(--orange-deep) 14px 28px);
+    transition:width 1.6s cubic-bezier(.22,1,.36,1);
+  }
+  .meter-stats{display:flex; justify-content:space-between; margin-top:10px; font-size:.9rem; color:var(--brown-soft);}
+  .stretch-note{
+    display:none; margin-top:14px; text-align:center; background:var(--sand-light); color:var(--brown-dark);
+    border-radius:12px; padding:10px 16px; font-weight:700; font-size:.92rem;
+  }
+  .stretch-note.show{display:block;}
+
+  /* ===== הסיפור ===== */
+  .story-grid{display:grid; grid-template-columns:1fr 1fr; gap:36px; align-items:center; margin-top:44px;}
+  @media(max-width:820px){.story-grid{grid-template-columns:1fr;}}
+  .img-slot{
+    background:var(--sand-light); border:2px dashed var(--sand); border-radius:18px;
+    display:flex; align-items:center; justify-content:center; text-align:center;
+    color:var(--brown-soft); font-size:.95rem; padding:20px; min-height:260px;
+  }
+  /* תמונות כ"פולרואיד על קיר חימר" — עם פס סימון שביל כנייר דבק */
+  figure.photo{
+    margin:0; position:relative; background:#fffdf8;
+    padding:12px 12px 6px; border:1px solid var(--sand);
+    border-radius:4px 7px 5px 8px;
+    box-shadow:0 10px 22px rgba(74,44,20,.20), inset 0 0 0 1px var(--sand-light);
+    transform:rotate(-1.1deg);
+    transition:transform .35s ease, box-shadow .35s ease;
+  }
+  figure.photo:nth-of-type(even){transform:rotate(1.2deg);}
+  figure.photo:hover{transform:rotate(0deg) translateY(-5px); box-shadow:0 18px 34px rgba(74,44,20,.28), inset 0 0 0 1px var(--sand-light);}
+  figure.photo::before{
+    content:''; position:absolute; top:-10px; right:50%;
+    transform:translateX(50%) rotate(-2.5deg);
+    width:58px; height:17px; border-radius:2px;
+    background:linear-gradient(180deg, var(--trail-orange) 0 33%, #fdfdfd 33% 66%, var(--trail-blue) 66% 100%);
+    box-shadow:0 2px 5px rgba(51,38,26,.3); z-index:3; opacity:.95;
+  }
+  figure.photo img{
+    width:100%; max-height:460px; object-fit:cover; border-radius:2px;
+    border:none; box-shadow:inset 0 0 0 1px rgba(74,44,20,.08);
+  }
+  figure.photo figcaption{
+    text-align:center; font-family:'Amatic SC', cursive; font-size:1.45rem; line-height:1.2;
+    color:var(--brown); margin-top:8px; padding-bottom:4px;
+  }
+  .story-text h3{font-size:1.5rem; color:var(--brown-dark); margin-bottom:12px;}
+  .story-text p{margin-bottom:14px;}
+  .highlight-box{
+    background:#fff; border-right:5px solid var(--trail-orange); border-radius:12px;
+    padding:18px 20px; box-shadow:var(--shadow); margin-top:8px; font-weight:500;
+  }
+
+  /* ===== מה בונים — כרטיסים ===== */
+  .grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(210px, 1fr)); gap:22px; margin-top:44px;}
+  .card{
+    background:#fffdf8; border-radius:14px 18px 14px 20px; padding:28px 22px; text-align:center;
+    box-shadow:var(--shadow); transition:transform .25s;
+    border:1px solid var(--sand-light); border-top:4px solid var(--sand);
+  }
+  .card:hover{transform:translateY(-6px);}
+  .card .icon{font-size:2.4rem; margin-bottom:10px;}
+  .card h3{font-size:1.15rem; color:var(--brown-dark); margin-bottom:8px;}
+  .card p{font-size:.95rem; color:var(--brown-soft);}
+  .cost-callout{
+    margin:44px auto 0; max-width:560px; text-align:center; background:#fff; border-radius:20px;
+    padding:26px; box-shadow:var(--shadow); border:2px solid var(--sand-light);
+  }
+  .cost-callout .num{font-family:'Varela Round','Rubik',sans-serif; font-size:2.6rem; font-weight:900; color:var(--brown-dark);}
+
+  /* ===== מדרגות שותפות ===== */
+  .tiers{display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:22px; margin-top:44px;}
+  .tier{
+    background:#fffdf8; color:var(--ink); border:1px solid var(--sand-light);
+    border-radius:14px 18px 14px 20px; padding:28px 22px; text-align:center;
+    box-shadow:var(--shadow); display:flex; flex-direction:column; gap:10px;
+    transition:transform .25s;
+  }
+  .tier:hover{transform:translateY(-6px);}
+  .tier .amount{font-family:'Varela Round','Rubik',sans-serif; font-size:2rem; font-weight:900; color:var(--trail-orange);}
+  .tier h3{color:var(--brown-dark); font-size:1.1rem;}
+  .tier p{font-size:.92rem; color:var(--brown-soft); flex:1;}
+  .tier .btn{padding:11px 0; width:100%; font-size:.95rem;}
+  .tier.featured{outline:3px solid var(--trail-orange); position:relative;}
+  .tier.featured::before{
+    content:'ההשתתפות המשמעותית';   /* ★ זיפ 59 */ position:absolute; top:-14px; right:50%; transform:translateX(50%);
+    background:var(--trail-orange); color:#fff; font-size:.78rem; font-weight:700;
+    padding:3px 14px; border-radius:20px;
+  }
+  .tier .per-month{font-size:.85rem; font-weight:700; color:var(--brown-soft); margin-top:-6px;}
+
+  /* מדרגת "שותף מייסד" — עיצוב יוקרתי (זהב) */
+  .tier.premium{
+    background:linear-gradient(160deg, #fff9ec, #f1e0ad); border:2px solid #c9a227;
+    box-shadow:0 16px 34px rgba(160,124,20,.32); position:relative;
+  }
+  .tier.premium .amount{color:#96721a;}
+  .tier.premium::before{
+    content:'👑 שותף מייסד'; position:absolute; top:-14px; right:50%; transform:translateX(50%);
+    background:linear-gradient(135deg,#c9a227,#96721a); color:#fff; font-size:.78rem; font-weight:700;
+    padding:3px 16px; border-radius:20px; white-space:nowrap;
+  }
+  .tier.premium .btn{background:linear-gradient(135deg,#c9a227,#96721a);}
+
+  /* איור מעוצב בראש כל כרטיס */
+  .tier-illustration{
+    width:92px; height:92px; margin:2px auto 2px; border-radius:50%;
+    background:radial-gradient(circle at 50% 38%, #ffffff, var(--cream-deep));
+    display:flex; align-items:center; justify-content:center;
+    box-shadow:inset 0 2px 7px rgba(74,44,20,.10), 0 6px 14px rgba(74,44,20,.12);
+  }
+  .tier-illustration svg{width:58px; height:58px; display:block;}
+  .tier.premium .tier-illustration{
+    background:radial-gradient(circle at 50% 38%, #fffdf2, #f0dca6);
+    box-shadow:inset 0 2px 7px rgba(150,114,26,.16), 0 6px 16px rgba(150,114,26,.22);
+  }
+
+  /* מדרגת "כל סכום" — תרומה חד-פעמית, בצבע תכלת בולט ושונה */
+  .tier.onetime{
+    background:linear-gradient(160deg, #eef6fc, #d3e6f4); border:2px solid var(--sky-deep);
+    box-shadow:0 16px 34px rgba(47,111,178,.22); position:relative;
+  }
+  .tier.onetime .amount{color:var(--trail-blue); font-size:1.7rem;}
+  .tier.onetime h3{color:#245a91;}
+  .tier.onetime .per-month{color:var(--sky-deep);}
+  .tier.onetime p{color:#3a6a95;}
+  .tier.onetime .btn{background:linear-gradient(135deg, var(--sky-deep), var(--trail-blue)); color:#fff;}
+  .tier.onetime::before{
+    content:'💙 בחירה חופשית'; position:absolute; top:-14px; right:50%; transform:translateX(50%);
+    background:linear-gradient(135deg, var(--sky-deep), var(--trail-blue)); color:#fff; font-size:.78rem; font-weight:700;
+    padding:3px 16px; border-radius:20px; white-space:nowrap;
+  }
+  .tier.onetime .tier-illustration{
+    background:radial-gradient(circle at 50% 38%, #ffffff, #cfe4f4);
+    box-shadow:inset 0 2px 7px rgba(47,111,178,.14), 0 6px 16px rgba(47,111,178,.20);
+  }
+
+  /* ===== פופ-אפ "רגע לפני התרומה" (שם/סכום/הקדשה) ===== */
+  .predonate-overlay{
+    display:none; position:fixed; inset:0; background:rgba(51,38,26,.55); z-index:999;
+    align-items:center; justify-content:center; padding:20px; backdrop-filter:blur(2px);
+  }
+  .predonate-overlay.show{display:flex;}
+  .predonate-box{
+    background:var(--cream); border-radius:20px 26px 20px 26px; max-width:460px; width:100%;
+    max-height:90vh; overflow-y:auto; padding:34px 28px 28px; box-shadow:0 20px 50px rgba(0,0,0,.3);
+    border:3px solid var(--sand-light); position:relative; animation:thanksPop .35s ease-out;
+  }
+  .predonate-box h3{font-size:1.4rem; color:var(--brown-dark); margin-bottom:10px; text-align:center;}
+  .predonate-box .predonate-sub{color:var(--brown-soft); font-size:.92rem; margin-bottom:20px; text-align:center;}
+  .predonate-label{display:block; font-weight:700; color:var(--brown-dark); font-size:.9rem; margin:16px 0 6px;}
+  .predonate-box input{
+    width:100%; padding:12px 16px; border:2px solid var(--sand-light); border-radius:12px;
+    font-family:inherit; font-size:1rem; color:var(--ink); background:#fff;
+  }
+  .anon-check{display:flex; align-items:center; gap:8px; margin:8px 0 2px; font-size:.9rem; font-weight:600; color:var(--brown-soft); cursor:pointer;}
+  .anon-check input{width:auto !important; margin:0; accent-color:var(--trail-orange); cursor:pointer;}
+  #predonateName:disabled{background:var(--cream-deep); color:#a99; cursor:not-allowed;}
+  .predonate-box input:focus{outline:none; border-color:var(--trail-orange);}
+  .predonate-note{color:var(--brown-soft); font-size:.8rem; margin-top:14px; text-align:center; line-height:1.5;}
+  .predonate-box .btn{width:100%; margin-top:20px;}
+  .predonate-close{
+    position:absolute; top:12px; left:14px; background:none; border:none; font-size:1.4rem;
+    color:var(--brown-soft); cursor:pointer; line-height:1;
+  }
+
+  /* ===== פופ-אפ תודה אחרי תרומה ===== */
+  .thanks-overlay{
+    display:none; position:fixed; inset:0; background:rgba(51,38,26,.62); z-index:999;
+    align-items:center; justify-content:center; padding:20px; backdrop-filter:blur(3px);
+  }
+  .thanks-overlay.show{display:flex;}
+  .thanks-box{
+    background:var(--cream); border-radius:24px; max-width:480px; width:100%;
+    text-align:center; box-shadow:0 26px 64px rgba(0,0,0,.42);
+    border:1px solid var(--sand); position:relative; overflow:hidden;
+    animation:thanksPop .5s cubic-bezier(.22,1,.36,1);
+  }
+  @keyframes thanksPop{from{transform:scale(.88) translateY(12px); opacity:0;} to{transform:scale(1) translateY(0); opacity:1;}}
+  .thanks-head{
+    padding:30px 24px 44px; position:relative; overflow:hidden;
+    background-image:repeating-linear-gradient(45deg, rgba(201,162,75,.1) 0 14px, transparent 14px 28px),
+                     linear-gradient(160deg, var(--brown-dark), var(--brown));
+  }
+  .thanks-logo{
+    width:86px; height:86px; border-radius:50%; border:3px solid var(--gold); background:#fff;
+    margin:0 auto 12px; display:block; box-shadow:0 8px 20px rgba(0,0,0,.35); position:relative; z-index:2;
+    animation:thanksLogo 4s ease-in-out infinite;
+  }
+  @keyframes thanksLogo{0%,100%{transform:translateY(0) rotate(0);}50%{transform:translateY(-5px) rotate(-2deg);}}
+  .thanks-title{font-family:'Varela Round','Rubik',sans-serif; color:#fff; font-size:1.5rem; font-weight:900; position:relative; z-index:2;}
+  .thanks-kicker{color:var(--sand-light); font-size:.95rem; margin-top:3px; position:relative; z-index:2;}
+  .thanks-body{
+    padding:30px 30px 28px; margin-top:-22px; background:var(--cream);
+    border-radius:24px 24px 0 0; position:relative; z-index:3;
+  }
+  .thanks-body h3{font-size:1.35rem; color:var(--brown-dark); margin-bottom:14px;}
+  .thanks-box p{color:var(--brown-soft); font-size:1.03rem; margin-bottom:12px; line-height:1.72;}
+  .thanks-box .thanks-sign{font-weight:700; color:var(--brown-dark); margin:20px 0 22px; font-size:.98rem; line-height:1.6;}
+  .thanks-box .btn{width:100%; margin-top:4px;}
+  .thanks-close{
+    position:absolute; top:12px; left:14px; background:rgba(255,255,255,.22); border:none; font-size:1.05rem;
+    color:#fff; cursor:pointer; line-height:1; width:30px; height:30px; border-radius:50%; z-index:5;
+  }
+  /* קונפטי חגיגי */
+  .confetti-piece{position:fixed; top:-16px; width:11px; height:11px; z-index:1000; pointer-events:none; opacity:.95; will-change:transform;}
+  @keyframes confettiFall{to{transform:translateY(105vh) rotate(720deg); opacity:0;}}
+  @media (prefers-reduced-motion: reduce){ .thanks-logo{animation:none;} .confetti-piece{display:none;} }
+
+  /* ===== שגרירים ===== */
+  .amb-box{
+    max-width:720px; margin:40px auto 0; background:#fff; border-radius:20px; padding:34px 30px;
+    box-shadow:var(--shadow); text-align:center;
+  }
+  .amb-box h3{font-size:1.4rem; color:var(--brown-dark); margin-bottom:10px;}
+
+  /* ===== עדויות ===== */
+  .testimonial{
+    background:#fffdf8; border-radius:14px 18px 16px 20px; padding:30px 22px 26px;
+    box-shadow:var(--shadow); border:1px solid var(--sand-light); position:relative;
+  }
+  .testimonial::before{
+    content:'”'; position:absolute; top:2px; right:14px;
+    font-family:'Varela Round','Rubik',sans-serif; font-size:3.4rem; color:var(--sand); line-height:1;
+  }
+  .testimonial .stars{color:var(--trail-orange); letter-spacing:3px; margin-bottom:10px;}
+  .testimonial .name{margin-top:12px; font-weight:700; color:var(--brown-dark); font-size:.92rem;}
+
+  /* ===== FAQ ===== */
+  details{background:#fff; border-radius:14px; padding:18px 22px; margin-top:14px; box-shadow:var(--shadow);}
+  summary{font-weight:700; color:var(--brown-dark); cursor:pointer;}
+  details p{margin-top:10px; color:var(--brown-soft);}
+  /* ★ זיפ 50: קישור וואטסאפ בתוך שאלה נפוצה — בולט ולחיץ */
+  .faq-wa{
+    display:inline-flex; align-items:center; gap:6px;
+    background:#25D366; color:#fff; font-weight:700; text-decoration:none;
+    padding:8px 16px; border-radius:11px; margin-top:6px;
+    box-shadow:0 3px 9px rgba(37,211,102,.32);
+    transition:transform .18s ease;
+  }
+  .faq-wa:hover{transform:translateY(-2px);}
+
+  /* ===== שיתוף ===== */
+  .share-btns{display:flex; gap:14px; justify-content:center; flex-wrap:wrap; margin-top:30px;}
+  .share-btns .btn{display:inline-flex; align-items:center; gap:8px;}
+  .btn-wa{background:#25d366; color:#fff;}
+  .btn-fb{background:#1877f2; color:#fff;}
+  .copied-msg{text-align:center; margin-top:12px; font-size:.9rem; color:var(--acacia); font-weight:700; opacity:0; transition:opacity .3s;}
+  .copied-msg.show{opacity:1;}
+
+  /* ===== קולאז' רגעים — רשת 2×2 מאוזנת (4 תמונות) ===== */
+  .moments-collage{display:grid; grid-template-columns:repeat(2,1fr); gap:30px; margin-top:26px; align-items:start; max-width:900px; margin-inline:auto;}
+  .moments-collage figure{margin:0;}
+  .moments-collage figure img{height:290px; object-fit:cover;}
+  /* ★ זיפ 45: התמונה החמישית — רחבה על כל השורה, סוגרת את הגלריה באיזון (2+2+1) */
+  .moments-collage figure.moments-wide{grid-column:1 / -1;}
+  .moments-collage figure.moments-wide img{height:360px;}
+  .moments-label{text-align:center; font-weight:700; color:var(--brown); font-size:1.05rem; margin-top:6px;}
+  @media(max-width:560px){
+    .moments-collage{grid-template-columns:1fr;}
+    .moments-collage figure img{height:250px !important;}
+  }
+
+  /* ===== קולאז' קירות — רשת אחידה (8 תמונות = שתי שורות של 4) ===== */
+  .walls-collage{display:grid; grid-template-columns:repeat(4,1fr); gap:24px; margin-top:44px; align-items:start;}
+  .walls-collage figure{margin:0;}
+  .walls-collage figure img{height:205px; object-fit:cover; width:100%;}
+  @media(max-width:900px){.walls-collage{grid-template-columns:repeat(2,1fr);}}
+  @media(max-width:520px){.walls-collage{grid-template-columns:1fr;} .walls-collage figure img{height:240px !important;}}
+
+  /* ===== זוויות ותזוזה מפוזרות — כמו המכתבים ===== */
+  .moments-collage figure:nth-child(1){transform:rotate(-1.8deg);}
+  .moments-collage figure:nth-child(2){transform:rotate(1.6deg);}
+  .moments-collage figure:nth-child(3){transform:rotate(-2.4deg) translateY(10px);}
+  .moments-collage figure:nth-child(4){transform:rotate(2deg) translateY(-8px);}
+  .moments-collage figure:nth-child(5){transform:rotate(-1.3deg) translateY(6px);}
+  .moments-collage figure:hover{transform:rotate(0) translateY(-6px);}
+  .walls-collage figure:nth-child(4n+1){transform:rotate(-2deg);}
+  .walls-collage figure:nth-child(4n+2){transform:rotate(1.6deg) translateY(9px);}
+  .walls-collage figure:nth-child(4n+3){transform:rotate(-1.4deg) translateY(-7px);}
+  .walls-collage figure:nth-child(4n){transform:rotate(2.2deg) translateY(5px);}
+  .walls-collage figure:hover{transform:rotate(0) translateY(-6px);}
+
+  /* ===== מכתבים — עיצוב "דואר": נייר מכתבים, מסגרת מקווקוות ובול ===== */
+  .letters-head,.head-ico{display:flex; align-items:center; justify-content:center; gap:16px; flex-wrap:wrap; margin-bottom:4px;}
+  .letters-head .env-ico,.head-ico svg{flex:none;}
+  .letters-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:36px 30px; margin-top:40px; align-items:start; max-width:980px; margin-inline:auto;}
+  .letter{
+    position:relative; margin:0; background:#fffdf7;
+    padding:16px 16px 12px; border-radius:3px;
+    box-shadow:0 14px 30px rgba(74,44,20,.20);
+    outline:2px dashed rgba(111,68,35,.30); outline-offset:-9px;
+    transition:transform .35s ease, box-shadow .35s ease;
+  }
+  .letter:nth-child(1){transform:rotate(-2deg);}
+  .letter:nth-child(2){transform:rotate(1.4deg) translateY(14px);}
+  .letter:nth-child(3){transform:rotate(2.2deg);}
+  .letter:hover{transform:rotate(0) translateY(-6px); box-shadow:0 22px 42px rgba(74,44,20,.28);}
+  .letter img{width:100%; max-height:340px; object-fit:contain; background:#fff; border-radius:2px; display:block;}
+  .letter figcaption{
+    text-align:center; font-family:'Amatic SC', cursive; font-size:1.5rem; line-height:1.15;
+    color:var(--brown); margin-top:10px;
+  }
+  .letter .stamp{position:absolute; top:-14px; left:-12px; z-index:5; transform:rotate(-9deg);
+    filter:drop-shadow(0 3px 5px rgba(51,38,26,.28));}
+  @media(max-width:760px){
+    .letters-grid{grid-template-columns:1fr; max-width:430px;}
+    .letter{transform:none !important;}
+  }
+
+  /* תג 46א בולט */
+  .tax-badge{
+    max-width:720px; margin:32px auto 0; text-align:center;
+    background:var(--sand-light); color:var(--brown-dark);
+    border:3px solid var(--trail-orange); border-radius:16px;
+    padding:20px 26px; font-weight:700; font-size:1.12rem; line-height:1.55;
+    box-shadow:0 10px 26px rgba(240,123,63,.22);
+  }
+  .tax-badge strong{display:block; color:var(--trail-orange); font-size:1.35rem; margin-bottom:4px;}
+  .tax-badge .tax-sub{display:block; margin-top:6px; font-weight:500; font-size:.9rem; opacity:.85;}
+
+  /* ===== דרכי תרומה ===== */
+  .pay-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(290px,1fr)); gap:26px; max-width:820px; margin:36px auto 0; text-align:right;}
+  .pay-card{
+    background:rgba(250,246,238,.10); border:1px solid rgba(230,215,188,.45);
+    border-radius:16px 20px 16px 22px; padding:28px 26px; display:flex; flex-direction:column; gap:12px;
+    backdrop-filter:blur(2px);
+  }
+  .pay-card h3{color:var(--sand-light); font-size:1.25rem; text-align:center;}
+  .pay-card > p{font-size:.92rem; opacity:.9; text-align:center; flex:1;}
+  .pay-icon{font-size:2.2rem; text-align:center;}
+  .bank-details{
+    background:rgba(250,246,238,.95); color:var(--brown-dark); border-radius:12px;
+    padding:16px 18px; font-size:.98rem; line-height:2; flex:1;
+    outline:2px dashed rgba(111,68,35,.25); outline-offset:-6px;
+  }
+  .bank-details span{font-weight:700; color:var(--brown);}
+  .bank-note{font-size:.82rem; opacity:.85; text-align:center; margin-top:2px;}
+  .pay-methods{display:flex; flex-wrap:wrap; gap:8px; justify-content:center;}
+  .pay-badge{
+    background:rgba(250,246,238,.95); color:var(--brown-dark); font-weight:700; font-size:.88rem;
+    padding:8px 14px; border-radius:10px; display:inline-flex; align-items:center; gap:6px;
+    box-shadow:0 3px 8px rgba(0,0,0,.12);
+  }
+  .pay-secure{
+    background:rgba(250,246,238,.95); color:var(--brown-dark); border-radius:12px;
+    padding:14px 18px; font-size:.88rem; line-height:1.6; text-align:center;
+    outline:2px dashed rgba(111,68,35,.25); outline-offset:-6px; flex:1;
+    display:flex; align-items:center; justify-content:center; gap:8px;
+  }
+
+  /* ===== קיר תורמים — קיר אבנים ===== */
+  .wall-count{text-align:center; font-weight:800; color:var(--brown); margin:18px 0 0; font-size:1.05rem;}
+  .donor-wall{
+    display:flex; flex-wrap:wrap; gap:10px 8px; justify-content:center; align-items:stretch;
+    margin:26px auto 0; max-width:940px; padding:26px 20px;
+    background:linear-gradient(180deg, #efe4d0, #e6d6bd);
+    border-radius:14px;
+    box-shadow:inset 0 3px 12px rgba(74,44,20,.18), 0 1px 0 rgba(255,255,255,.6);
+  }
+  .brick{
+    position:relative; border-radius:6px; padding:14px 24px; text-align:center;
+    display:flex; flex-direction:column; justify-content:center; gap:3px;
+    font-weight:700; color:#fffdf8; font-size:.98rem;
+    background:linear-gradient(180deg, #cda37a, #b3854e);
+    border:1px solid rgba(122,90,51,.5);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.3), 0 3px 6px rgba(74,44,20,.25);
+    text-shadow:0 1px 1px rgba(74,44,20,.35);
+    opacity:0; transform:translateY(14px);
+    animation:brickIn .55s ease forwards;
+    transition:transform .25s ease, box-shadow .25s ease;
+  }
+  @keyframes brickIn{to{opacity:1; transform:translateY(0);}}
+  .brick:hover{transform:translateY(-4px); box-shadow:inset 0 1px 0 rgba(255,255,255,.34), 0 8px 16px rgba(74,44,20,.3);}
+  .brick:nth-child(3n){background:linear-gradient(180deg, #bc905c, #a17743);}
+  .brick:nth-child(4n+1){background:linear-gradient(180deg, #d6b088, #c0965f);}
+  .brick:nth-child(5n+2){background:linear-gradient(180deg, #c49869, #ab7f4a);}
+  .brick .brick-amt{font-size:.92rem; font-weight:800; letter-spacing:.01em; opacity:.97;}
+  .brick.gold .brick-amt{font-size:1rem;}
+  .brick .ded{font-size:.8rem; font-weight:500; font-style:italic; opacity:.96; line-height:1.35;}
+  .brick.with-ded{padding:15px 26px; min-width:190px; max-width:290px;}
+  .brick.gold, .brick.gold:nth-child(n){
+    /* ★ זיפ 46 לבקשת חני (23/07): הנצנוץ וההילה הוסרו — הצבעים הרכים המקוריים
+       חזרו. התנועה הפריעה לקריאת שמות התורמים. לא להחזיר נצנוץ!
+       ★ זיפ 49: התרומות הגדולות מקבלות מקום וכבוד — האבן גדולה יותר,
+       המסגרת מודגשת והצל עמוק. כבוד סטטי, בלי שום תנועה. */
+    background:linear-gradient(160deg, #e6c06c, #c99e42 55%, #b3893a);
+    border:2px solid rgba(140,102,18,.65);
+    min-width:265px; max-width:365px; padding:26px 36px; font-size:1.18rem;
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.5), 0 9px 20px rgba(160,120,40,.45);
+  }
+  .brick.gold:hover{transform:translateY(-4px); box-shadow:inset 0 1px 0 rgba(255,255,255,.55), 0 13px 26px rgba(160,120,40,.52);}
+  .brick .gold-tag{font-size:.7rem; font-weight:700; letter-spacing:.08em; opacity:.95;}
+  /* אייקון גדול בראש לבנה מיוחדת (לב לזהב, כתר לנחושת)
+     ★ זיפ 47 לבקשת חני (23/07): האייקונים הוגדלו — התורם מרגיש את ההערכה
+     דרך עיצוב האבן שלו. ההיררכיה נשמרת בגודל האייקון בלבד, בלי תנועה.
+     ★ זיפ 49 לבקשת חני: הזרע חוזר לקטן (תרומות מזעריות), והפער בין המדרגות
+     הוגדל — התרומות הגדולות מקבלות מקום וכבוד בולטים. */
+  .brick .brick-icon{font-size:1.9rem; line-height:1; margin-bottom:3px; filter:drop-shadow(0 2px 3px rgba(74,44,20,.3));}
+  .brick.gold .brick-icon{font-size:3.1rem;}     /* 👑 1,800+ */
+  .brick.silver .brick-icon{font-size:2.6rem;}   /* ✨ 770+ */
+  .brick.copper .brick-icon{font-size:2.15rem;}  /* 🧡 250+ */
+  /* סרט "שותף בהוראת קבע" על אבן הכבוד */
+  .brick .hk-ribbon{display:inline-flex; align-items:center; gap:5px; background:rgba(255,255,255,.22); border:1px solid rgba(255,255,255,.42); border-radius:20px; padding:2px 11px; font-size:.68rem; font-weight:700; letter-spacing:.02em; margin-bottom:5px; text-shadow:none; color:#fffdf8;}
+  /* ===== אבן חול — תרומות עד 100 ₪ (חול מדברי חמים עם נגיעת משמש) ===== */
+  .brick.sand, .brick.sand:nth-child(n){
+    background:linear-gradient(170deg, #e0ac6f, #cd8f4b 60%, #bd7f3d);
+    border-color:rgba(150,100,45,.5);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.42), 0 3px 6px rgba(110,72,30,.25);
+  }
+  .brick.sand:hover{transform:translateY(-4px); box-shadow:inset 0 1px 0 rgba(255,255,255,.48), 0 8px 16px rgba(110,72,30,.3);}
+  .brick.sand .brick-icon{font-size:1.15rem;}   /* ★ זיפ 49: 🌱 חזר לקטן — תרומות מזעריות, צנוע ומכובד */
+  /* ===== לבנת כסף — 770 עד 1,799 (שותף מייסד) =====
+     ★ זיפ 49: מדרגה שנייה ברורה — גדולה מהנחושת, קטנה מהזהב. */
+  .brick.silver, .brick.silver:nth-child(n){
+    background:linear-gradient(160deg, #d8cfc0, #b3a68f 55%, #9a8d76);
+    border:1.5px solid rgba(110,98,78,.6);
+    min-width:240px; max-width:340px; padding:22px 31px; font-size:1.1rem;
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.55), 0 7px 16px rgba(110,98,78,.44);
+  }
+  .brick.silver:hover{transform:translateY(-4px); box-shadow:inset 0 1px 0 rgba(255,255,255,.6), 0 10px 20px rgba(110,98,78,.48);}
+  .brick .silver-tag{font-size:.7rem; font-weight:700; letter-spacing:.07em; opacity:.95;}
+  .brick.silver .brick-amt{font-size:1rem;}
+  /* ===== לבנת נחושת — 250 עד 769 ===== */
+  .brick.copper, .brick.copper:nth-child(n){
+    background:linear-gradient(160deg, #d98c4a, #b5652c 55%, #9c4f22);
+    border-color:rgba(140,70,25,.6);
+    min-width:215px; max-width:320px; padding:18px 28px; font-size:1.04rem;
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.4), 0 6px 14px rgba(150,80,30,.4);
+  }
+  .brick.copper:hover{transform:translateY(-4px); box-shadow:inset 0 1px 0 rgba(255,255,255,.5), 0 10px 20px rgba(150,80,30,.48);}
+  .brick .copper-tag{font-size:.7rem; font-weight:700; letter-spacing:.06em; opacity:.95;}
+  .brick.copper .brick-amt{font-size:1rem;}
+  #donors{scroll-margin-top:12px;}   /* ★ זיפ 58 */
+  .wall-cta{text-align:center; margin-top:26px;}
+  /* ★ זיפ 48: כפתור "שאלות בוואטסאפ" — בולט, בצבע וואטסאפ המוכר */
+  .wa-ask{margin:20px auto 4px; max-width:520px;}
+  .wa-ask-title{color:var(--sand-light); font-weight:700; font-size:1.05rem; margin-bottom:10px;}
+  .wa-ask-btn{
+    display:inline-flex; align-items:center; justify-content:center; gap:10px;
+    background:linear-gradient(135deg, #25D366, #1da851); color:#fff;
+    font-weight:800; font-size:1.08rem; text-decoration:none;
+    padding:15px 30px; border-radius:16px; border:2px solid rgba(255,255,255,.5);
+    box-shadow:0 6px 18px rgba(37,211,102,.4);
+    transition:transform .2s ease, box-shadow .2s ease;
+  }
+  .wa-ask-btn:hover{transform:translateY(-3px); box-shadow:0 10px 24px rgba(37,211,102,.5);}
+  .wa-ask-ic{font-size:1.35rem; line-height:1;}
+  @media(max-width:520px){ .wa-ask-btn{font-size:.97rem; padding:14px 20px; width:100%;} }
+  /* ===== פס מקוצר של הקיר בהירו ===== */
+  .wall-preview{max-width:660px; margin:24px auto 0; display:none;}
+  .wall-preview.show{display:block; animation:thanksPop .5s ease-out;}
+  .wall-preview .wp-title{font-weight:800; color:var(--brown-dark); font-size:1.02rem; margin-bottom:12px;}
+  .wall-preview .wp-row{display:flex; gap:8px; justify-content:center; flex-wrap:wrap;}
+  .wp-brick{
+    border-radius:6px; padding:9px 15px; text-align:center; color:#fffdf8; font-weight:700; font-size:.85rem;
+    display:flex; flex-direction:column; align-items:center; gap:1px; min-width:78px;
+    background:linear-gradient(180deg, #cda37a, #b3854e); border:1px solid rgba(122,90,51,.5);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.3), 0 3px 6px rgba(74,44,20,.22);
+    text-shadow:0 1px 1px rgba(74,44,20,.3);
+  }
+  .wp-brick .wp-amt{font-size:.76rem; font-weight:800; opacity:.97;}
+  .wp-brick .wp-ic{font-size:1.35rem; line-height:1;}   /* ★ זיפ 47: אייקון הפס גדל בהתאמה */
+  .wp-brick .wp-mo{font-size:.66rem; font-weight:600; opacity:.92;}
+  .wp-brick span{max-width:140px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+  .brick .rec-note{font-size:.74rem; font-weight:700; opacity:.95;}
+  .wp-brick.copper{background:linear-gradient(160deg, #d98c4a, #b5652c); border-color:rgba(140,70,25,.6);}
+  .wp-brick.gold{background:linear-gradient(160deg, #e6c06c, #c99e42 60%, #b3893a); border-color:rgba(122,90,20,.55);}
+  .wp-brick.silver{background:linear-gradient(160deg, #d8cfc0, #b3a68f 55%, #9a8d76); border-color:rgba(110,98,78,.55);}
+  .wall-preview .wp-more{
+    margin-top:20px; background:linear-gradient(135deg, var(--sky-deep), var(--trail-blue)); color:#fff; font-weight:800;
+    padding:15px 40px; border-radius:18px; font-size:1.3rem; cursor:pointer;
+    border:3px dashed #fff; letter-spacing:.01em;
+    box-shadow:0 8px 22px rgba(47,111,178,.42);
+    animation:wpBob 1.35s ease-in-out infinite;
+  }
+  @keyframes wpBob{
+    0%,100%{ transform:translateY(0) scale(1); box-shadow:0 8px 22px rgba(47,111,178,.42); }
+    50%{ transform:translateY(-7px) scale(1.03); box-shadow:0 18px 34px rgba(47,111,178,.6); }
+  }
+  .wall-preview .wp-more:hover{ animation-play-state:paused; transform:translateY(-3px) scale(1.04); }
+  @media (prefers-reduced-motion: reduce){ .wall-preview .wp-more{ animation:none; } }
+  @media(max-width:520px){ .wp-brick{min-width:70px; padding:8px 11px; font-size:.8rem;} }
+  @media(max-width:520px){
+    .donor-wall{padding:18px 10px; gap:8px 6px;}
+    .brick{padding:12px 18px; font-size:.92rem;}
+    /* ★ זיפ 49: ההיררכיה נשמרת גם בנייד — הזהב הכי גדול, ואז הכסף */
+    .brick.gold{min-width:200px; padding:19px 24px; font-size:1.06rem;}
+    .brick.silver{min-width:188px; padding:17px 22px; font-size:1rem;}
+    .brick.gold .brick-icon{font-size:2.5rem;}
+    .brick.silver .brick-icon{font-size:2.15rem;}
+  }
+
+  /* ===== חלונית "הוספת אבן לקיר" ===== */
+  .ded-overlay{
+    position:fixed; inset:0; z-index:120; display:flex; align-items:center; justify-content:center;
+    background:rgba(58,35,15,.55); padding:18px; backdrop-filter:blur(2px);
+  }
+  .ded-overlay[hidden]{display:none;}
+  .ded-box{
+    background:var(--cream, #faf6ee); border-radius:16px; max-width:440px; width:100%;
+    padding:28px 26px 22px; position:relative; box-shadow:0 20px 60px rgba(40,22,8,.45);
+    max-height:92vh; overflow:auto;
+  }
+  .ded-box h3{color:var(--brown); font-size:1.35rem; margin:0 0 6px;}
+  .ded-box .ded-sub{font-size:.92rem; color:var(--brown-soft, #7a5a37); margin:0 0 16px;}
+  .ded-close{
+    position:absolute; top:12px; left:12px; border:0; background:none; font-size:1.5rem;
+    color:var(--brown); cursor:pointer; line-height:1; padding:4px 8px;
+  }
+  .ded-box label{display:block; font-weight:700; color:var(--brown); font-size:.92rem; margin:12px 0 4px;}
+  .ded-box input[type=text], .ded-box input[type=tel]{
+    width:100%; box-sizing:border-box; padding:11px 12px; border-radius:9px;
+    border:1.5px solid #cbb187; background:#fff; font-size:1rem; font-family:inherit; color:#4a2c14;
+  }
+  .ded-box input:focus{outline:2px solid var(--trail-orange, #f07b3f); border-color:transparent;}
+  .ded-box .btn{width:100%; margin-top:14px;}
+  .ded-note{font-size:.78rem; color:var(--brown-soft, #7a5a37); text-align:center; margin:10px 0 0;}
+  .ded-msg{font-weight:700; text-align:center; margin-top:12px; min-height:1.2em;}
+  .ded-msg.ok{color:#3e7a3e;} .ded-msg.err{color:#b03a2e;}
+
+  /* ===== סמן מטייל צועד + אבני דרך על סרגל ההתקדמות ===== */
+  .meter-marker{
+    position:absolute; top:50%; right:0; transform:translate(50%,-50%);
+    font-size:1.6rem; line-height:1; filter:drop-shadow(0 2px 3px rgba(74,32,13,.4));
+    transition:right 1.8s cubic-bezier(.22,1,.36,1);
+    animation:meterBob 1.6s ease-in-out infinite;
+    z-index:2;
+  }
+  @keyframes meterBob{ 0%,100%{transform:translate(50%,-58%);} 50%{transform:translate(50%,-42%);} }
+  .meter-goal-icon{
+    position:absolute; top:50%; left:-4px; transform:translate(-25%,-55%);
+    font-size:1.6rem; line-height:1; z-index:2;
+    filter:drop-shadow(0 2px 3px rgba(74,32,13,.4));
+  }
+  .meter-milestones{position:absolute; inset:0; pointer-events:none;}
+  .meter-milestones span{
+    position:absolute; top:50%; transform:translate(50%,-50%);
+    width:6px; height:6px; border-radius:50%; background:#fffdf8;
+    box-shadow:0 0 0 2px var(--sand,#cbb187);
+  }
+
+  /* ===== FOOTER ===== */
+  footer{background:var(--brown-dark); color:var(--sand-light); padding:44px 0 30px; text-align:center;}
+  footer .contact-line{display:flex; gap:26px; justify-content:center; flex-wrap:wrap; margin-top:14px; font-size:.95rem;}
+  footer a{text-decoration:underline; text-underline-offset:3px;}
+  footer .small{margin-top:22px; font-size:.8rem; opacity:.7;}
+
+  /* ===== כפתור תרומה צף ===== */
+  .float-donate{
+    position:fixed; bottom:22px; left:22px; z-index:60;
+    display:flex; flex-direction:column; align-items:flex-start; gap:10px;   /* ★ זיפ 52 */
+  }
+  /* ★ זיפ 52: כפתור וואטסאפ צף — מעל כפתור התרומה, בצבע וואטסאפ המוכר */
+  .float-wa{
+    display:inline-flex; align-items:center; gap:7px;
+    background:linear-gradient(135deg, #25D366, #1da851); color:#fff;
+    font-weight:800; font-size:.95rem; text-decoration:none;
+    padding:12px 20px; border-radius:50px; border:2px solid rgba(255,255,255,.55);
+    box-shadow:0 8px 22px rgba(37,211,102,.42);
+    transition:transform .2s ease, box-shadow .2s ease;
+  }
+  .float-wa:hover{transform:translateY(-3px); box-shadow:0 12px 28px rgba(37,211,102,.55);}
+  .float-donate .btn{box-shadow:0 10px 30px rgba(217,95,43,.45); font-size:1.05rem; padding:15px 32px;}
+  /* במובייל כבר יש כפתור תרומה קבוע בהדר — מסתירים את הצף כדי שלא יכסה תוכן */
+  @media(max-width:760px){ .float-donate{display:none;} }
+
+  /* ===== חשיפה בגלילה — פועלת רק כשיש JS, אחרת הכל גלוי ===== */
+  html.js .reveal{opacity:0; transition:opacity .7s ease;}
+  html.js .reveal.in{opacity:1;}
+  @media (prefers-reduced-motion: reduce){
+    html.js .reveal{opacity:1; transition:none;}
+    .meter-fill{transition:none;}
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="top">
+  <div class="top-inner">
+    <div class="brand"><img class="logo-round logo-sm" src="logo.png" alt='לוגו בית חב"ד הערבה'> בית חב"ד הערבה</div>
+    <a class="btn btn-orange goto-tiers" href="#tiers">לתרומה</a>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<div class="hero">
+  <img class="logo-round logo-hero" src="logo.png" alt='בית חב"ד הערבה — עם כל הלב לכל אחד'>
+  <div class="kicker">בית חב"ד הערבה — התחנה החמה של שביל ישראל</div>
+  <div><span class="amb-banner" id="ambBanner"></span></div>
+  <h1>הסופה לקחה את מתחם האירוח.<br><span class="accent">יחד נבנה אותו מחדש.</span></h1>
+  <p class="lead">
+    הבית שלנו עומד, והלב פתוח כתמיד. אבל אוהל האירוח והמתחם שסביבו — המקום שבו אלפי מטיילים
+    ישנו, אכלו סעודות שבת בצוותא והתרעננו אחרי ימים במדבר — נהרס בסופות.
+    חגי תשרי מתקרבים, והמטיילים בדרך.
+  </p>
+
+  <div class="meter-wrap" id="meter">
+    <div class="meter-top">
+      <div><span class="meter-raised" id="raisedNum">0 ₪</span></div>
+      <div class="meter-goal">מתוך יעד של <strong id="goalNum">200,000 ₪</strong></div>
+    </div>
+    <div class="meter-bar">
+      <div class="meter-milestones">
+        <span style="right:25%"></span><span style="right:50%"></span><span style="right:75%"></span>
+      </div>
+      <div class="meter-track"><div class="meter-fill" id="meterFill"></div></div>
+      <div class="meter-marker" id="meterMarker" style="right:0%">🚶</div>
+      <div class="meter-goal-icon" id="meterGoalIcon">🏕️</div>
+    </div>
+    <div class="meter-stats">
+      <span id="pctNum">0%</span>
+      <span id="donorsNum"></span>
+    </div>
+    <div class="stretch-note" id="stretchNote"></div>
+    <div class="meter-status" id="meterStatus"></div>
+  </div>
+
+  <!-- פס מקוצר של קיר התורמים — נראה מיד בכניסה, מוביל לקיר המלא למטה -->
+  <div class="wall-preview" id="wallPreview">
+<!-- שורת "כבר X שותפים" הוסרה לבקשת חני (20.7) — המספר מוצג פעם אחת בלבד, בסרגל. לא להחזיר. -->
+    <div class="wp-title">✨ הצטרפו הרגע לקיר הבונים</div><!-- ★ זיפ 42: כותרת בלי מספרים -->
+    <div class="wp-row" id="wpRow"></div>
+    <button class="wp-more" type="button" onclick="scrollToWall()">לקיר המלא של הבונים ↓</button>
+  </div>
+
+  <div class="hero-ctas">
+    <a class="btn btn-orange" id="donateHero" href="#" target="_blank" rel="noopener">אני שותף/ה בבנייה 🧡</a>
+    <a class="btn btn-sand" href="#story">מה קרה כאן?</a>
+  </div>
+
+  <div class="dunes" aria-hidden="true">
+    <svg viewBox="0 0 1440 90" preserveAspectRatio="none">
+      <path d="M0,60 C240,20 480,80 720,55 C960,30 1200,75 1440,45 L1440,90 L0,90 Z" fill="#cbb187" opacity="0.55"/>
+      <path d="M0,75 C260,45 520,90 780,70 C1040,50 1250,85 1440,65 L1440,90 L0,90 Z" fill="#6f4423" opacity="0.9"/>
+    </svg>
+  </div>
+</div>
+
+<!-- ===== מדרגות שותפות ===== -->
+<section id="tiers">
+  <div class="container">
+    <!-- ★ זיפ 77 לבקשת חני (29/07): תיבת "אין ספונסר" — שבירת הנחת המימון
+         (סעיף 6ז בהנדאוף: מטיילים מניחים שגוף מממן את האירוח). הנוסח אושר
+         ע"י חני מילה במילה — לא לשנות ולא למחוק! -->
+    <div class="nospon">
+      <div style="font-weight:800;font-size:1.15rem;color:var(--brown-dark);margin-bottom:8px;">💛 משהו שרוב האורחים שלנו לא יודעים</div>
+      <p style="margin:0 0 10px;color:var(--brown-dark);line-height:1.65;">אין מאחורי הבית הזה ספונסר. אין ארגון, אין קרן, אין תקציב — ואף אחד לא מממן אותנו.</p>
+      <p style="margin:0 0 10px;color:var(--brown-dark);line-height:1.65;">את הכול — הארוחות החמות, המיטות, המקלחות, הכביסות, הקפה של הבוקר, ואירוח השבת עם סעודות שבת שמאחדות את כל עם ישראל סביב שולחן אחד — מימנו כל השנים לבד, מהכיס שלנו. מתוך אמונה שכל מי שמגיע למדבר — מטייל, חייל, משפחה או אורח לרגע — מוצא כאן בית פתוח 🏠</p>
+      <p style="margin:0;color:var(--brown-dark);line-height:1.65;">עכשיו, אחרי שהסופות הרסו את המתחם, אנחנו לא יכולים לבד. <strong>עכשיו אנחנו זקוקים לך.</strong></p>
+    </div>
+    <h2 class="section-title">בוחרים איך להיות שותפים בבית</h2>
+    <p class="section-sub">רוב השותפים שלנו מצטרפים בהוראת קבע חודשית — כך הבית באמצע המדבר נשאר פתוח למטיילים כל חודש מחדש. מעדיפים תרומה חד-פעמית? יש גם כרטיס לבחירת סכום חופשי 💙 · אפשר להקדיש כל תרומה לזכות או לעילוי נשמת יקיריכם</p>
+    <div class="divider"></div>
+    <div class="tiers">
+      <!-- כל כרטיס מקושר לינק תשלום נפרד שנוצר ב-Grow (הוראת קבע). יש להחליף את href בקישור האמיתי אחרי היצירה בגרו.
+           חשוב: בכל קישור חדש להגדיר את אותו שדה הקדשה מותאם-אישית שכבר קיים בקישור התרומה החד-פעמית! -->
+      <!-- ★ זיפ 59 לבקשת חני (24/07): מדרגת 50 ₪ הוסרה — עוגן נמוך מדי.
+           58% מהתורמים בחרו במדרגה הראשונה/שנייה; העוגן החדש: 100 ₪. לא להחזיר! -->
+      <div class="tier reveal">
+        <div class="tier-illustration">
+          <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M25 9 q-4 5 0 10" fill="none" stroke="#cbb187" stroke-width="2.4" stroke-linecap="round"/>
+            <path d="M33 7 q-4 5 0 10" fill="none" stroke="#cbb187" stroke-width="2.4" stroke-linecap="round"/>
+            <path d="M12 25 h31 v12 a12.5 12.5 0 0 1 -12.5 12.5 h-6 a12.5 12.5 0 0 1 -12.5 -12.5 Z" fill="#f07b3f"/>
+            <rect x="12" y="25" width="31" height="4" fill="#fff8e6" opacity=".45"/>
+            <path d="M43 28 h4 a7.5 7.5 0 0 1 0 15 h-3.5" fill="none" stroke="#d95f2b" stroke-width="3.4"/>
+            <ellipse cx="27.5" cy="54" rx="21" ry="3.4" fill="#8a5a33"/>
+          </svg>
+        </div>
+        <div class="amount">100 ₪</div>
+        <div class="per-month">לחודש × 12 חודשים</div>
+        <h3>פינת קפה ושתייה</h3>
+        <p>בזכותך, פינת הקפה נשארת פתוחה וחמה — כוס משקה ורגע מנוחה לכל מי שעובר בדרך</p>
+        <a class="btn btn-orange" href="https://pay.grow.link/NDk3NTk~f232c5b575a1ffd80cbde178f284126a-MzcwNzkyOQ" target="_blank" rel="noopener">הצטרפות</a>
+      </div>
+      <div class="tier reveal">
+        <div class="tier-illustration">
+          <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M24 11 q-3 5 0 9" fill="none" stroke="#cbb187" stroke-width="2.2" stroke-linecap="round"/>
+            <path d="M32 8 q-3 5 0 9" fill="none" stroke="#cbb187" stroke-width="2.2" stroke-linecap="round"/>
+            <path d="M40 11 q-3 5 0 9" fill="none" stroke="#cbb187" stroke-width="2.2" stroke-linecap="round"/>
+            <ellipse cx="32" cy="30" rx="22" ry="4.5" fill="#d95f2b"/>
+            <path d="M10 30 a22 13 0 0 0 44 0 Z" fill="#f07b3f"/>
+            <path d="M18 47 h28 l-3 5 h-22 Z" fill="#cbb187"/><ellipse cx="32" cy="47" rx="14" ry="2.4" fill="#8a5a33"/>
+          </svg>
+        </div>
+        <div class="amount">180 ₪</div>
+        <div class="per-month">לחודש × 12 חודשים</div>
+        <h3>סעודה בצוותא</h3>
+        <p>בזכותך, כל חודש עוד שולחן ערוך לסעודה משותפת — הלב הפועם של הבית (180 — חי)</p>
+        <a class="btn btn-orange" href="https://pay.grow.link/NDk3NTk~9718b96e2db76cbc47eedb33d8b80b40-MzcwODI0Mw" target="_blank" rel="noopener">הצטרפות</a>
+      </div>
+      <div class="tier featured reveal">
+        <div class="tier-illustration">
+          <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M20 7 q-3.5 5 0 9 q3.5 -4 0 -9 Z" fill="#f4a53f"/><path d="M20 9.5 q-2 3 0 5.5 q2 -2.5 0 -5.5 Z" fill="#f7d774"/>
+            <path d="M44 7 q-3.5 5 0 9 q3.5 -4 0 -9 Z" fill="#f4a53f"/><path d="M44 9.5 q-2 3 0 5.5 q2 -2.5 0 -5.5 Z" fill="#f7d774"/>
+            <rect x="17" y="16" width="6" height="27" rx="2.5" fill="#fff8e6" stroke="#e6d7bc"/>
+            <rect x="41" y="16" width="6" height="27" rx="2.5" fill="#fff8e6" stroke="#e6d7bc"/>
+            <path d="M13 43 h14 l-2.5 8 h-9 Z" fill="#cbb187"/><path d="M37 43 h14 l-2.5 8 h-9 Z" fill="#cbb187"/>
+            <ellipse cx="20" cy="51" rx="7.5" ry="2" fill="#8a5a33"/><ellipse cx="44" cy="51" rx="7.5" ry="2" fill="#8a5a33"/>
+          </svg>
+        </div>
+        <div class="amount">360 ₪</div>
+        <div class="per-month">לחודש × 12 חודשים</div>
+        <h3>שבת שלמה למטייל</h3>
+        <p>שבת אצלנו עולה הרבה יותר — 360 ₪ הם ההשתתפות שלך בשבת של מטייל: סעודות, לינה ומנוחת הנפש. קיבלת שבת? העבר אותה הלאה 💛</p>
+        <a class="btn btn-orange" href="https://pay.grow.link/NDk3NTk~806c4f2fab685c6baa35bc57877675f4-MzcwODI1NA" target="_blank" rel="noopener">הצטרפות</a>
+      </div>
+      <div class="tier premium reveal">
+        <div class="tier-illustration">
+          <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M9 46 L9 21 L23 33 L32 15 L41 33 L55 21 L55 46 Z" fill="#d4af37" stroke="#b8912a" stroke-width="1.5" stroke-linejoin="round"/>
+            <rect x="9" y="45" width="46" height="7.5" rx="2.5" fill="#b8912a"/>
+            <circle cx="32" cy="40" r="3" fill="#fff8e6"/><circle cx="17.5" cy="42" r="2.2" fill="#fff8e6"/><circle cx="46.5" cy="42" r="2.2" fill="#fff8e6"/>
+            <circle cx="32" cy="13" r="3.2" fill="#f4a53f"/><circle cx="9" cy="20" r="2.4" fill="#f4a53f"/><circle cx="55" cy="20" r="2.4" fill="#f4a53f"/>
+          </svg>
+        </div>
+        <div class="amount">770 ₪</div>
+        <div class="per-month">לחודש × 12 חודשים</div>
+        <h3>שותף/ה מייסד/ת</h3>
+        <p>שותפות מלאה בבניית המתחם ובקיומו השוטף — הקדשה מרכזית והוקרה קבועה, כל חודש (770 — על שם "בית חב"ד")</p>
+        <a class="btn btn-orange" href="https://pay.grow.link/NDk3NTk~e187684de162966ebc8aeda9d3d57d2c-MzcwODI1Nw" target="_blank" rel="noopener">הצטרפות</a>
+      </div>
+      <div class="tier onetime reveal">
+        <div class="tier-illustration">
+          <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M32 51 C11 36 13 18 26 18 C30.5 18 32 23 32 25 C32 23 33.5 18 38 18 C51 18 53 36 32 51 Z" fill="#f07b3f"/>
+            <path d="M32 51 C11 36 13 18 26 18 C30.5 18 32 23 32 25" fill="none" stroke="#d95f2b" stroke-width="1.6" opacity=".4" stroke-linecap="round"/>
+            <path d="M49 12 l1.2 3.4 l3.4 1.2 l-3.4 1.2 l-1.2 3.4 l-1.2 -3.4 l-3.4 -1.2 l3.4 -1.2 Z" fill="#f4a53f"/>
+            <circle cx="12" cy="16" r="1.7" fill="#f4a53f"/><circle cx="15" cy="46" r="1.4" fill="#3d84bd"/>
+          </svg>
+        </div>
+        <div class="amount">כל סכום</div>
+        <div class="per-month">תרומה חד-פעמית</div>
+        <h3>שותפות בבנייה</h3>
+        <p>בוחרים את הסכום שבלב, בתשלום אחד. כל שקל בונה 💛</p>
+        <a class="btn donate-link" href="#" target="_blank" rel="noopener">לתרומה</a>
+      </div>
+    </div>
+    <p style="text-align:center; margin-top:26px; color:var(--brown-soft);">
+      אפשר לבטל בכל עת בפנייה אלינו · הוראת הקבע גם היא מזכה בקבלה מוכרת למס (46א׳) מדי חודש · אפשר להוסיף הקדשה אישית בטופס התשלום
+    </p>
+  </div>
+</section>
+
+<!-- ===== תרומה מרכזית ===== -->
+<section class="bg-brown" id="donate">
+  <div class="container" style="text-align:center;">
+    <h2 class="section-title">היו שותפים בבניית המתחם</h2>
+    <p class="section-sub">בית פתוח באמצע המדבר לא בונים לבד — בונים אותו ביחד, לב אל לב</p>
+    <!-- ★ זיפ 48 לבקשת חני (23/07): הקישור לוואטסאפ נבלע כטקסט קטן — הוחלף
+         בכפתור ירוק בולט. תורם מתלבט חייב למצוא את זה במבט אחד. לא להקטין! -->
+    <div class="wa-ask">
+      <div class="wa-ask-title">יש שאלה על התרומה? אנחנו כאן 💛</div>
+      <a id="donateWa" class="wa-ask-btn" href="#" target="_blank" rel="noopener">
+        <span class="wa-ask-ic" aria-hidden="true">💬</span>
+        <span>לשאלות בוואטסאפ — חני, 054-5918770</span>
+      </a>
+    </div>
+    <div class="divider"></div>
+    <div class="pay-grid">
+      <div class="pay-card">
+        <div class="pay-icon">💳</div>
+        <h3>בכרטיס אשראי ועוד</h3>
+        <p>תשלום באמצעות כרטיס אשראי, ביט, פייבוקס וגוגל פיי</p>
+        <div class="pay-methods">
+          <span class="pay-badge">📲 Bit</span>
+          <span class="pay-badge">🅿️ PayBox</span>
+          <span class="pay-badge">💳 אשראי</span>
+          <span class="pay-badge">🅶 Google Pay</span>
+        </div>
+        <div class="pay-secure">🔒 תשלום מאובטח לחלוטין דרך GROW — הקבלה נשלחת אוטומטית למייל</div>
+        <a class="btn btn-orange goto-tiers" style="width:100%;" href="#tiers">💛 לבחירת מסלול תרומה</a>
+      </div>
+      <div class="pay-card">
+        <div class="pay-icon">🏦</div>
+        <h3>בהעברה בנקאית</h3>
+        <div class="bank-details" id="bankDetails">
+          <div><span>לזכות:</span> עמותת בית חב"ד ערבה</div>
+          <div><span>בנק:</span> דיסקונט (11)</div>
+          <div><span>סניף:</span> 517</div>
+          <div><span>חשבון:</span> 135441023</div>
+        </div>
+        <button class="btn btn-sand" style="width:100%;" id="copyBank">📋 העתקת פרטי החשבון</button>
+        <button type="button" onclick="openDedicate()" style="display:block; width:100%; margin-top:8px; background:none; border:none; text-decoration:underline; color:inherit; cursor:pointer; font-family:inherit; font-size:.88rem;">העברתם? הוסיפו אבן עם שמכם לקיר הבונים 🧱</button>
+        <p class="bank-note">העברתם? לחצו לשליחת אסמכתא בוואטסאפ לרב משה <a href="https://wa.me/972545458770?text=%D7%A9%D7%9C%D7%95%D7%9D%20%D7%94%D7%A8%D7%91%20%D7%9E%D7%A9%D7%94%21%20%D7%AA%D7%A8%D7%9E%D7%AA%D7%99%20%D7%9C%D7%A7%D7%9E%D7%A4%D7%99%D7%99%D7%9F%20%D7%91%D7%A0%D7%99%D7%99%D7%AA%20%D7%9E%D7%AA%D7%97%D7%9D%20%D7%94%D7%90%D7%99%D7%A8%D7%95%D7%97%20%D7%95%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A7%D7%91%D7%9C%20%D7%A7%D7%91%D7%9C%D7%94%20%F0%9F%99%82%20%D7%9E%D7%A6%D7%95%D7%A8%D7%A4%D7%AA%20%D7%90%D7%A1%D7%9E%D7%9B%D7%AA%D7%90%20%D7%A9%D7%9C%20%D7%94%D7%94%D7%A2%D7%91%D7%A8%D7%94.%20%D7%A4%D7%A8%D7%98%D7%99%D7%99%20%D7%9C%D7%A7%D7%91%D7%9C%D7%94%3A%20%5B%D7%A9%D7%9D%20%D7%9E%D7%9C%D7%90%5D%2C%20%5B%D7%98%D7%9C%D7%A4%D7%95%D7%9F%5D" target="_blank" rel="noopener" style="text-decoration:underline;">054-5458770</a> — ותקבלו קבלה מוכרת למס (ההודעה כבר מנוסחת, רק לצרף אסמכתא)</p>
+      </div>
+    </div>
+    <div class="tax-badge reveal">🧾 <strong>קבלה מוכרת למס — טופס 46 (סעיף 46א׳)</strong>כל תרומה מזכה אתכם בהחזר מס<span class="tax-sub">עמותה רשומה מס׳ 580607364 · הקבלה נשלחת אוטומטית למייל אחרי התרומה</span></div>
+  </div>
+</section>
+
+<!-- ===== הסיפור ===== -->
+<section id="story">
+  <div class="container">
+    <h2 class="section-title">מה קרה כאן?</h2>
+    <div class="divider"></div>
+    <div class="story-grid">
+      <!-- תמונת הרס 1: לשמור בתיקייה קובץ בשם harisa1.jpg -->
+      <figure class="photo reveal">
+        <img src="https://drive.google.com/thumbnail?id=1Ly2p3RE-6xatQnJ3b-aXOryzftnyIRoM&sz=w1600" alt="מתחם האירוח אחרי הסופה — סככה קרועה, ציוד הפוך ושקי שינה על החול" loading="lazy" onerror="if(!this.dataset.f){this.dataset.f=1;this.src='harisa1.jpg'}else{this.parentElement.style.display='none'}">
+        <figcaption>מתחם האירוח אחרי הסופה — כאן ישנו ואכלו אלפי מטיילים</figcaption>
+      </figure>
+      <div class="story-text reveal">
+        <h3>הייתה כאן פינה של בית</h3>
+        <p>
+          באמצע הערבה, על שביל ישראל, עמד מתחם האירוח שלנו: אוהל גדול ומוצל, מזרנים ולינה חמה,
+          שולחנות ארוכים לסעודות בצוותא, מקלחת, ופינת שתייה שתמיד חיכתה עם כוס קפה חם.
+          אלפי מטיילים ומטיילות עברו כאן, נחו, אכלו — ויצאו לדרך עם כוחות חדשים.
+        </p>
+        <p>
+          הסופות האחרונות הרסו את המתחם כולו. הבית נשאר — ועכשיו המקום דורש שיפוץ מחדש.
+        </p>
+        <div class="highlight-box">
+          עונת הטיולים החדשה בפתח. אלפי מטיילים יעברו כאן — ואנחנו רוצים לקבל אותם כמו שמגיע להם: במתחם מהודר, מזמין וחמים.
+        </div>
+      </div>
+    </div>
+    <div class="story-grid">
+      <div class="story-text reveal">
+        <p>
+          הרוחות קרעו את סכך הצל, עקמו את הצינורות והפכו את פינת הישיבה שאירחה
+          אלפי סעודות. מה שנשאר — תמונה אחת שווה אלף מילים.
+          זה מה שאנחנו נחושים לבנות מחדש, גדול וטוב יותר.
+        </p>
+      </div>
+      <!-- תמונת הרס 2: לשמור בתיקייה קובץ בשם harisa2.jpg -->
+      <figure class="photo reveal">
+        <img src="https://drive.google.com/thumbnail?id=1Jw4LOUEldK1NypfUEMDEmXQ2ugN_p5j2&sz=w1600" alt="הסככה ההרוסה — קורות שבורות וסכך קרוע על רקע שמי המדבר" loading="lazy" onerror="if(!this.dataset.f){this.dataset.f=1;this.src='harisa2.jpg'}else{this.parentElement.style.display='none'}">
+        <figcaption>הסככה של פינת הסעודות — אחרי הסופה</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===== מה בונים ===== -->
+<section class="bg-alt" id="build">
+  <div class="container">
+    <h2 class="section-title">מה אנחנו בונים?</h2>
+    <p class="section-sub">מתחם אירוח חדש ומהודר למטיילים ולמטיילות — מוכן לקלוט את עונת הטיולים</p>
+    <div class="divider"></div>
+    <div class="grid">
+      <div class="card reveal"><div class="icon">⛺</div><h3>מתחם לינה</h3><p>אוהל אירוח מרווח ומוצל עם מזרנים ולינה נעימה — מתחמים נפרדים למטיילים ולמטיילות</p></div>
+      <div class="card reveal"><div class="icon">🍲</div><h3>פינת סעודות בצוותא</h3><p>שולחנות ארוכים לסעודות שבת וארוחות משותפות — הלב הפועם של המתחם</p></div>
+      <div class="card reveal"><div class="icon">🚿</div><h3>מקלחת ושירותים</h3><p>יחידת מקלחת ושירותים נוספת — כי אחרי שבוע במדבר, מקלחת חמה זה עולם ומלואו</p></div>
+      <div class="card reveal"><div class="icon">☕</div><h3>פינת שתייה</h3><p>עמדת קפה, תה ושתייה קרה — פתוחה לכל מי שעובר בשביל, בכל שעה</p></div>
+    </div>
+    <!-- הדמיות המתחם החדש — נטענות מהדרייב -->
+    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); margin-top:44px;">
+      <figure class="photo reveal">
+        <img src="https://drive.google.com/thumbnail?id=1U2XxpMt_l8aeGSpY_DfOcf4oTmW8Ur6y&sz=w1600" alt="הדמיית המתחם החדש — פרגולת עץ ושולחנות שבת ערוכים" loading="lazy" onerror="this.parentElement.style.display='none'">
+        <figcaption>כך ייראה המתחם החדש — הדמיית התכנון</figcaption>
+      </figure>
+      <figure class="photo reveal">
+        <img src="https://drive.google.com/thumbnail?id=1S3XVsnxqTO0BYiLJ18SrLcuZH7amvYxt&sz=w1600" alt="הדמיית המתחם החדש — שולחן שבת ערוך, מזרנים צבעוניים ומבנה המקלחת" loading="lazy" onerror="this.parentElement.style.display='none'">
+        <figcaption>פינת הסעודות, הלינה והמקלחת — הדמיה</figcaption>
+      </figure>
+      <figure class="photo reveal">
+        <img src="https://drive.google.com/thumbnail?id=1Wm2MrPPwkEeoQ5udS3aSMWipeUF7FQHP&sz=w1600" alt="הדמיית המתחם החדש — מבט כללי על מתחם האירוח המשופץ" loading="lazy" onerror="this.parentElement.style.display='none'">
+        <figcaption>בעזרת השם שנזכה 🙏</figcaption>
+      </figure>
+    </div>
+    <div class="cost-callout reveal">
+      <div>עלות הקמת המתחם המלא:</div>
+      <div class="num">200,000 ₪</div>
+      <div style="color:var(--brown-soft); font-size:.95rem;">כל שקל שנתרם הולך ישירות לבנייה. לתורמים — <strong style="color:var(--trail-orange);">קבלה מוכרת למס · טופס 46 (סעיף 46א׳)</strong></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== שגרירים ===== -->
+<section class="bg-alt">
+  <div class="container">
+    <h2 class="section-title">התארחתם אצלנו בשביל?</h2>
+    <div class="divider"></div>
+    <div class="amb-box reveal">
+      <h3>הסיפור שלכם שווה יותר מכל פרסומת 🥾</h3>
+      <p>
+        אם ישנתם, אכלתם או שתיתם אצלנו קפה בדרך — אתם יודעים מה המקום הזה שווה.
+        הצטרפו כשגרירי הקמפיין: שתפו את הסיפור שלכם, העבירו לחברים מהמסלול, ועזרו לנו להחזיר את הבית למדבר.
+      </p>
+      <div class="share-btns" style="margin-top:22px;">
+        <a class="btn btn-wa" id="ambWa" href="#" target="_blank" rel="noopener">💬 אני רוצה להיות שגריר/ה</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== רגעים יחד ===== -->
+<section>
+  <div class="container">
+    <div class="head-ico">
+      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M23 21l4-7h16l4 7" fill="#faf1df" stroke="#6f4423" stroke-width="2.4" stroke-linejoin="round"/>
+        <rect x="8" y="21" width="54" height="39" rx="6" fill="#faf1df" stroke="#6f4423" stroke-width="2.4"/>
+        <circle cx="35" cy="42" r="12.5" fill="#8fc1e3" stroke="#6f4423" stroke-width="2.4"/>
+        <circle cx="35" cy="42" r="6.5" fill="#fffdf7"/>
+        <path d="M35 40.2c-1.3-1.9-4.4-1.3-4.4 1 0 1.7 2.7 3.1 4.4 4.3 1.7-1.2 4.4-2.6 4.4-4.3 0-2.3-3.1-2.9-4.4-1z" fill="#f07b3f"/>
+        <rect x="49" y="27" width="8" height="5.5" rx="1.5" fill="#f07b3f"/>
+      </svg>
+      <h2 class="section-title" style="margin:0;">רגעים יפים מה"יחד"</h2>
+    </div>
+    <p class="section-sub">אלפי מטיילים ומטיילות עברו כאן. אלה רק כמה מהרגעים</p>
+    <div class="divider"></div>
+    <div class="moments-label">מטיילים אצלנו בבית</div>
+    <div class="moments-collage">
+      <figure class="photo reveal"><img src="https://drive.google.com/thumbnail?id=1OIUaCchabRfm8w2lyFEdjRjJIuqnN4lm&sz=w1200" alt="סעודת שבת משותפת בבית חב״ד הערבה — מטיילים יחד" loading="lazy" onerror="this.parentElement.style.display='none'"><figcaption>"הנה מה טוב ומה נעים שבת אחים גם יחד"</figcaption></figure>
+      <figure class="photo reveal"><img src="https://drive.google.com/thumbnail?id=1j9ERhccX2N60FvmHJXJwbuG1TtEUTenf&sz=w1200" alt="מוצאי שבת במאהל האירוח — פרידה מהמטיילים" loading="lazy" onerror="this.parentElement.style.display='none'"><figcaption>מוצאי שבת — "קשה עלינו פרידתכם"</figcaption></figure>
+      <figure class="photo reveal"><img src="https://drive.google.com/thumbnail?id=1hsBPXPFSKi8VXDrQGizxuDq3M562Z5KY&sz=w1200" alt="מטיילים יוצאים לדרך חזרה לשביל ישראל עם ציוד" loading="lazy" onerror="this.parentElement.style.display='none'"><figcaption>יוצאים לדרך — חזרה לשביל</figcaption></figure>
+      <figure class="photo reveal"><img src="https://drive.google.com/thumbnail?id=1TDIXtrPH-qBqdrfZwL9UL1IDH5e-DEDI&sz=w1200" alt="מטיילים יחד בבית חב״ד הערבה — רגע של שמחה" loading="lazy" onerror="this.parentElement.style.display='none'"><figcaption>עוד רגע של יחד בערבה</figcaption></figure>
+      <!-- ★ זיפ 45 (23/07): תמונה חדשה מאחד המטיילים — רחבה על כל השורה לאיזון הגלריה (2+2+1 רחבה) -->
+      <figure class="photo reveal moments-wide"><img src="moments-tent.jpg" alt="חבורת מטיילים גדולה יושבת יחד באוהל האירוח בערב" loading="lazy" onerror="this.parentElement.style.display='none'"><figcaption>אוהל אחד, חבורה אחת — הבית שבשביל</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===== קירות מדברים ===== -->
+<section class="bg-alt">
+  <div class="container">
+    <div class="head-ico">
+      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <line x1="35" y1="14" x2="35" y2="24" stroke="#6f4423" stroke-width="2.2" stroke-linecap="round"/>
+        <circle cx="35" cy="11" r="5.5" fill="#f07b3f" stroke="#6f4423" stroke-width="1.8"/>
+        <circle cx="33.2" cy="9.4" r="1.6" fill="#fffdf7" opacity=".8"/>
+        <g transform="rotate(-5 35 44)">
+          <rect x="15" y="24" width="40" height="40" rx="2.5" fill="#fffdf7" stroke="#6f4423" stroke-width="2.4"/>
+          <rect x="20" y="29" width="30" height="24" fill="#8fc1e3"/>
+          <path d="M20 53l8-11 5.5 6 6.5-9 10 14z" fill="#cbb187"/>
+          <circle cx="43" cy="35" r="3.4" fill="#f7d774"/>
+          <line x1="21" y1="58" x2="49" y2="58" stroke="#cbb187" stroke-width="2.4" stroke-linecap="round"/>
+        </g>
+      </svg>
+      <h2 class="section-title" style="margin:0;">קירות מספרים</h2>
+    </div>
+    <p class="section-sub">מסגרות, שלטים ומזכרות שמטיילים השאירו על הקיר שלנו — כל אחת סיפור שלם</p>
+    <div class="divider"></div>
+    <div class="walls-collage">
+      <figure class="photo reveal"><img src="https://drive.google.com/thumbnail?id=1QARVlRHbiHVzUmYOVV6X2sV6hmUHZngQ&sz=w900" alt="שלט תודה שנשאר על הקיר" loading="lazy" onerror="this.parentElement.style.display='none'"><figcaption>שלט תודה שנשאר על הקיר</figcaption></figure>
+      <figure class="photo reveal"><img src="https://drive.google.com/thumbnail?id=1SbCo-ijgDq1PqZcRdy8Ox7JH_YmSib0U&sz=w900" alt="חיילים שהתארחו — והשאירו מזכרת" loading="lazy" onerror="this.parentElement.style.display='none'"><figcaption>חיילים שהתארחו — והשאירו מזכרת</figcaption></figure>
+      <figure class="photo reveal"><img src="https://drive.google.com/thumbnail?id=1itDVlBZQeui5lH2yXC3KWZU31fH_neGv&sz=w900" alt="קבוצות שעברו כאן לאורך השנים" loading="lazy" onerror="this.parentElement.style.display='none'"><figcaption>קבוצות שעברו כאן לאורך השנים</figcaption></figure>
+      <figure class="photo reveal"><img src="https://drive.google.com/thumbnail?id=1yDZbQj0cicVvni2cwz4PFeNSwe_AhFw0&sz=w900" alt=""תודה רבה!" — ניסן תשפ"א" loading="lazy" onerror="this.parentElement.style.display='none'"><figcaption>"תודה רבה!" — ניסן תשפ"א</figcaption></figure>
+      <figure class="photo reveal"><img src="https://drive.google.com/thumbnail?id=1G8gbPDZew3oCm1BQXo2o2d_KCqclIZfs&sz=w900" alt="משפחות ומטיילים — תמונה מהקיר" loading="lazy" onerror="this.parentElement.style.display='none'"><figcaption>משפחות ומטיילים — תמונה מהקיר</figcaption></figure>
+      <figure class="photo reveal"><img src="https://drive.google.com/thumbnail?id=1MyNv6yyz0-qSX_TorBThNGxbrybgeeOD&sz=w900" alt="תודה שהשאירו מטיילים על הקיר" loading="lazy" onerror="this.parentElement.style.display='none'"><figcaption>עוד תודה שנשארה איתנו על הקיר</figcaption></figure>
+      <figure class="photo reveal"><img src="https://drive.google.com/thumbnail?id=1JNJvDLMwU0wFwZyYW7c4O53vMtFog9OL&sz=w900" alt="קיר המזכרות מהמטיילים" loading="lazy" onerror="this.parentElement.style.display='none'"><figcaption>קיר המזכרות שממשיך להתמלא</figcaption></figure>
+      <figure class="photo reveal"><img src="https://drive.google.com/thumbnail?id=1-pFDtb0Vg9E7R-yzcIJkSDHeqD3NHo0t&sz=w900" alt="מזכרת מהמטיילים על הקיר" loading="lazy" onerror="this.parentElement.style.display='none'"><figcaption>מזכרת שהשאירו לנו מטיילים</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section>
+  <div class="container">
+    <h2 class="section-title">מה כותבים לנו המטיילים</h2>
+    <p class="section-sub">מתוך מכתבי תודה אמיתיים שמטיילים השאירו אצלנו</p>
+    <div class="divider"></div>
+    <div class="grid">
+      <div class="testimonial reveal"><div class="stars">★★★★★</div><p>"קיבלתם אותנו בסבר פנים יפות ישר מן הדרך… נתתם לנו להרגיש אווירה של שבת וקדושה גם באמצע המדבר, הרחק מכל מקום יישוב. לימדתם אותנו מהי הכנסת אורחים בפשוטו כמשמעו — ללא תנאי ותמורה"</p><div class="name">— הדס, טליה, עדי, ליאת ורחל · שביל ישראל</div></div>
+      <div class="testimonial reveal"><div class="stars">★★★★★</div><p>"רצינו להודות על הכנסת האורחים הנפלאה שלכם! על הטבעיות שבה היא נעשתה, על הנעימות ומאור הפנים… מי ייתן ותמיד יהיה השפע בביתכם, ושתמשיכו להפיץ את האור המיוחד שלכם"</p><div class="name">— אורי, אביעד ועינב · מטיילי שביל ישראל</div></div>
+      <div class="testimonial reveal"><div class="stars">★★★★★</div><p>"תודה רבה על האירוח, על הדרך ועל הלב. הכנסת האורחים שלכם מדהימה"</p><div class="name">— מטיילות בשביל ישראל</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== מכתבים שעושים טוב על הלב ===== -->
+<section class="bg-alt">
+  <div class="container">
+    <div class="letters-head">
+      <svg class="env-ico" width="76" height="76" viewBox="0 0 76 76" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect x="20" y="9" width="36" height="30" rx="2" fill="#fffdf7" stroke="#cbb187" stroke-width="2"/>
+        <line x1="26" y1="18" x2="50" y2="18" stroke="#cbb187" stroke-width="2" stroke-linecap="round"/>
+        <line x1="26" y1="24" x2="45" y2="24" stroke="#cbb187" stroke-width="2" stroke-linecap="round"/>
+        <path d="M38 28c-2.4-3.4-8-2.4-8 1.8 0 3 4.6 5.6 8 8 3.4-2.4 8-5 8-8 0-4.2-5.6-5.2-8-1.8z" fill="#f07b3f"/>
+        <rect x="10" y="30" width="56" height="35" rx="4" fill="#faf1df" stroke="#6f4423" stroke-width="2.4"/>
+        <path d="M10 34l28 19 28-19" fill="none" stroke="#6f4423" stroke-width="2.4" stroke-linejoin="round"/>
+        <path d="M10 63l20-15M66 63 46 48" stroke="#6f4423" stroke-width="1.8" opacity=".45"/>
+        <rect x="48" y="12" width="15" height="18" rx="1.5" fill="#8fc1e3" stroke="#fff" stroke-width="2"/>
+        <circle cx="55.5" cy="21" r="4" fill="#fffdf7" opacity=".9"/>
+      </svg>
+      <h2 class="section-title" style="margin:0;">מכתבים שעושים טוב על הלב</h2>
+    </div>
+    <p class="section-sub">מכתבי תודה בכתב יד שמטיילים השאירו לנו — ישר מהלב, ישר מהשביל</p>
+    <div class="divider"></div>
+    <div class="letters-grid">
+      <figure class="letter">
+        <svg class="stamp" width="54" height="62" viewBox="0 0 54 62" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="3" y="3" width="48" height="56" rx="2" fill="#fff" stroke="#e6d7bc" stroke-width="1.5" stroke-dasharray="2 2.4"/><rect x="8" y="8" width="38" height="46" rx="1" fill="#f07b3f"/><path d="M27 22c-2.6-3.6-8.5-2.6-8.5 2 0 3.3 5.2 6.2 8.5 8.6 3.3-2.4 8.5-5.3 8.5-8.6 0-4.6-5.9-5.6-8.5-2z" fill="#fffdf7"/><text x="27" y="48" font-size="8" fill="#fffdf7" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700">תודה</text></svg>
+        <img src="https://drive.google.com/thumbnail?id=13ysl4N3hgq0Gbof4sLZiL920_IWLq6x9&sz=w700" alt="מכתב תודה בכתב יד ממטיילות שביל ישראל" loading="lazy" onerror="this.parentElement.style.display='none'"><figcaption>המכתבים המקוריים — נשארו אצלנו</figcaption>
+      </figure>
+      <figure class="letter">
+        <svg class="stamp" width="54" height="62" viewBox="0 0 54 62" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="3" y="3" width="48" height="56" rx="2" fill="#fff" stroke="#e6d7bc" stroke-width="1.5" stroke-dasharray="2 2.4"/><rect x="8" y="8" width="38" height="46" rx="1" fill="#8fc1e3"/><path d="M27 22c-2.6-3.6-8.5-2.6-8.5 2 0 3.3 5.2 6.2 8.5 8.6 3.3-2.4 8.5-5.3 8.5-8.6 0-4.6-5.9-5.6-8.5-2z" fill="#fffdf7"/><text x="27" y="48" font-size="8" fill="#fffdf7" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700">תודה</text></svg>
+        <img src="https://drive.google.com/thumbnail?id=15vdFHFqfmEl-Vo-QcgxnEc9rvGKO3SDM&sz=w700" alt="מכתב תודה מאויר ממטיילים" loading="lazy" onerror="this.parentElement.style.display='none'"><figcaption>"שתמשיכו להפיץ את האור המיוחד שלכם"</figcaption>
+      </figure>
+      <figure class="letter">
+        <svg class="stamp" width="54" height="62" viewBox="0 0 54 62" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="3" y="3" width="48" height="56" rx="2" fill="#fff" stroke="#e6d7bc" stroke-width="1.5" stroke-dasharray="2 2.4"/><rect x="8" y="8" width="38" height="46" rx="1" fill="#6f4423"/><path d="M27 22c-2.6-3.6-8.5-2.6-8.5 2 0 3.3 5.2 6.2 8.5 8.6 3.3-2.4 8.5-5.3 8.5-8.6 0-4.6-5.9-5.6-8.5-2z" fill="#fffdf7"/><text x="27" y="48" font-size="8" fill="#fffdf7" text-anchor="middle" font-family="Rubik, sans-serif" font-weight="700">תודה</text></svg>
+        <img src="https://drive.google.com/thumbnail?id=1AOgiX5u4C5FJ7PkaFeDzKugQ8EZsY4pa&sz=w700" alt="מכתב תודה בכתב יד ממטיילים" loading="lazy" onerror="this.parentElement.style.display='none'"><figcaption>מכתב תודה שהשאירו מטיילים מרוצים</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===== קיר התורמים (מוצג אוטומטית כשיש נתונים בגיליון) ===== -->
+<section id="donors" style="display:none;">
+  <div class="container">
+    <h2 class="section-title">השותפים שכבר בונים איתנו</h2>
+    <p class="section-sub">הקיר נבנה לבנה אחר לבנה, שם אחר שם. כל לבנה כאן היא שותף אמיתי בבניין</p>
+    <div class="divider"></div>
+    <p class="wall-count" id="wallCount"></p>
+    <div class="donor-wall" id="donorWall"></div>
+    <div class="wall-cta">
+      <!-- הזרימה הראשית: אותו פופ-אפ הקדשה שעובד בכל הכפתורים → תשלום מאובטח -->
+      <button class="btn btn-orange" type="button" onclick="openPredonateGeneral()">הוסיפו אבן לקיר 🧱</button>
+      <button type="button" onclick="openDedicate()" style="display:block; margin:10px auto 0; background:none; border:none; text-decoration:underline; color:inherit; cursor:pointer; font-family:inherit; font-size:.9rem;">כבר תרמתם (למשל בהעברה בנקאית)? רשמו את האבן שלכם כאן ✓</button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== חלונית הוספת אבן לקיר (לתרומות שלא עברו דרך פופ-אפ "רגע לפני התרומה", כגון העברה בנקאית) ===== -->
+<div class="ded-overlay" id="dedOverlay" hidden>
+  <div class="ded-box" role="dialog" aria-modal="true" aria-labelledby="dedTitle">
+    <button class="ded-close" type="button" onclick="closeDedicate()" aria-label="סגירה">✕</button>
+    <h3 id="dedTitle">הוספת אבן לקיר</h3>
+    <p class="ded-sub">כאן רושמים את האבן שלכם בקיר 💛<br>
+    <b>שימו לב: הרישום כאן אינו גובה תשלום.</b> מיד בסיום נעביר אתכם להשלמת התרומה המאובטחת — ומי שכבר תרם (למשל בהעברה בנקאית) פשוט יסמן זאת.</p>
+    <label for="dedName">שם לתצוגה בקיר <span style="font-weight:400;">(לא חובה — אפשר גם בעילום שם)</span></label>
+    <input type="text" id="dedName" maxlength="60" placeholder="לדוגמה: משפחת ישראלי">
+    <label for="dedAmount">סכום התרומה (₪) <span style="font-weight:400;">(לא חובה)</span></label>
+    <input type="tel" id="dedAmount" inputmode="numeric" placeholder="לדוגמה: 360">
+    <label for="dedText">הקדשה — לזכות / לזכר / לרפואת (לא חובה)</label>
+    <input type="text" id="dedText" maxlength="80" placeholder='לדוגמה: לזכר סבא משה ז"ל'>
+    <p class="ded-note" style="text-align:right; margin:10px 0 0;">מילוי השם מהווה הסכמה להצגתו בקיר. אפשר להשאיר ריק — ולתרום בעילום שם.</p>
+    <button class="btn btn-orange" type="button" id="dedSubmit" onclick="sendDedication()">הוסיפו את האבן שלי 🧱</button>
+    <p class="ded-msg" id="dedMsg"></p>
+    <!-- שלב ההמשך החובה: מהאבן — ישר לתרומה עצמה -->
+    <div id="dedNext" hidden style="margin-top:14px; text-align:center; border-top:1.5px dashed #d8c49a; padding-top:14px;">
+      <p style="font-weight:700; margin:0 0 10px;">האבן שלכם נרשמה בקיר 🧱<br>עכשיו הצעד הכי חשוב — התרומה עצמה:</p>
+      <a class="btn btn-orange" id="dedPayBtn" href="#" target="_blank" rel="noopener" style="width:100%;">להשלמת התרומה בתשלום מאובטח 💳</a>
+      <button type="button" id="dedPaidAlready" style="width:100%; margin-top:10px; background:none; border:none; text-decoration:underline; color:inherit; cursor:pointer; font-family:inherit; font-size:.9rem;">כבר תרמתי — בהעברה בנקאית / ביט / מזומן ✓</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== שיתוף ===== -->
+<section>
+  <div class="container" style="text-align:center;">
+    <h2 class="section-title">גם שיתוף בונה 🧱</h2>
+    <p class="section-sub">אין לכם אפשרות לתרום? שתפו את הקמפיין — כל שיתוף מביא עוד שותף</p>
+    <div class="divider"></div>
+    <div class="share-btns">
+      <a class="btn btn-wa" id="shareWa" href="#" target="_blank" rel="noopener">💬 שיתוף בוואטסאפ</a>
+      <a class="btn btn-fb" id="shareFb" href="#" target="_blank" rel="noopener">📘 שיתוף בפייסבוק</a>
+      <button class="btn btn-sand" id="copyLink">🔗 העתקת קישור</button>
+    </div>
+    <div class="copied-msg" id="copiedMsg">הקישור הועתק! עכשיו רק להדביק ולשלוח 💛</div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="bg-alt">
+  <div class="container" style="max-width:760px;">
+    <h2 class="section-title">שאלות נפוצות</h2>
+    <div class="divider"></div><br>
+    <details open><summary>האם התרומה מוכרת לצורכי מס?</summary><p>כן! העמותה מחזיקה באישור לפי סעיף 46א׳ — כל תרומה מזכה בקבלה מוכרת למס. הקבלה נשלחת אוטומטית במייל לאחר התרומה.</p></details>
+    <details><summary>לאן הולך הכסף?</summary><p>כל שקל מוקדש להקמת מתחם האירוח החדש: אוהל הלינה, פינת הסעודות, יחידת המקלחת והשירותים ופינת השתייה. נשתף עדכוני בנייה ותמונות עם כל שלב.</p></details>
+    <details><summary>מה קורה אם עוברים את היעד?</summary><p>כל שקל מעבר ליעד יוקדש לשדרוג המתחם ולפעילות האירוח השוטפת — סעודות שבת, ציוד למטיילים ואחזקת המקום.</p></details>
+    <details><summary>אפשר לתרום בהוראת קבע?</summary><p>בוודאי — בעמוד התרומה אפשר לבחור תרומה חודשית. שותפים חודשיים הם הבסיס היציב שמאפשר לנו לתכנן קדימה.</p></details>
+    <details><summary>אפשר להקדיש תרומה?</summary><p>כן — כל תרומה ניתנת להקדשה לזכות או לעילוי נשמת יקיריכם, פשוט למלאו בשדה ההקדשה לפני התשלום. תרומות גדולות זוכות גם לשלט הקדשה קבוע במתחם — לתיאום: חני 054-5918770.</p></details>
+    <!-- ★ זיפ 50 לבקשת חני (23/07): תקלת תשלום + ערוץ אישי לדש וגעגוע. לא להסיר. -->
+    <details><summary>נתקלתי בבעיה בהעברת התשלום — למי פונים?</summary><p>אל דאגה, זה קורה לפעמים (כרטיס שנחסם, אפליקציה שנתקעה) — ואנחנו כאן כדי לעזור. פשוט כתבו לחני בוואטסאפ ונטפל בזה יחד: <a id="faqWaPay" href="#" target="_blank" rel="noopener" class="faq-wa">💬 חני, 054-5918770</a><br>אם התשלום לא עבר — האבן שלכם ממתינה בצד ותעלה לקיר ברגע שנסדר את זה 💛</p></details>
+    <details><summary>סתם רציתי לומר מילה טובה / לשלוח דש</summary><p>אנחנו נשמח מאוד! 🥾💛 כל הודעה מתקבלת אצלנו באהבה גדולה — מילה טובה, זיכרון מהביקור אצלנו, געגוע לשולחן השבת במדבר, או סתם "שלום מהשביל". כתבו לחני: <a id="faqWaHello" href="#" target="_blank" rel="noopener" class="faq-wa">💬 חני, 054-5918770</a><br>הבית הזה נבנה מהאנשים שעברו בו — ואתם חלק ממנו תמיד.</p></details>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="container">
+    <img class="logo-round logo-footer" src="logo.png" alt='לוגו בית חב"ד הערבה'>
+    <div class="brand" style="justify-content:center; color:var(--sand-light);"><span class="trail-mark" aria-hidden="true"></span> בית חב"ד הערבה</div>
+    <p style="margin-top:8px;">בית פתוח בלב המדבר — עם כל הלב, לכל אחד</p>
+    <div class="contact-line">
+      <span>הרב משה בלוי: <a href="tel:+972545458770">054-5458770</a></span>
+      <span>חני בלוי: <a href="tel:+972545918770">054-5918770</a></span>
+      <!-- ★ זיפ 48: וואטסאפ לשאלות גם בפוטר — נגיש מכל מקום בעמוד -->
+      <span><a id="footerWa" href="#" target="_blank" rel="noopener">💬 שאלות בוואטסאפ</a></span>
+      <span><a href="mailto:bloyarava@gmail.com">bloyarava@gmail.com</a></span>
+    </div>
+    <div class="small">בית חב"ד הערבה · עמותה רשומה מס׳ 580607364 · אישור מס לפי סעיף 46א׳</div>
+  </div>
+</footer>
+
+<!-- ===== כפתור צף ===== -->
+<div class="float-donate">
+  <!-- ★ זיפ 52 לבקשת חני (23/07): וואטסאפ צף מעל כפתור התרומה — מכל מקום
+       בעמוד, ובכל תקלה, אפשר להגיע ישירות לחני. לא להסיר. -->
+  <a id="floatWa" class="float-wa" href="#" target="_blank" rel="noopener" title="שאלות בוואטסאפ — חני">
+    <span aria-hidden="true">💬</span><span>שאלה? דברו איתנו</span>
+  </a>
+  <a class="btn btn-orange donate-link" href="#" target="_blank" rel="noopener">לתרומה 🧡</a>
+</div>
+
+<!-- ===== פופ-אפ "רגע לפני התרומה" — נפתח בלחיצה על כל כפתור תרומה ===== -->
+<div class="predonate-overlay" id="predonateOverlay">
+  <div class="predonate-box">
+    <button class="predonate-close" id="predonateClose" aria-label="סגירה">✕</button>
+    <h3>🧡 רגע לפני התרומה</h3>
+    <p class="predonate-sub">רוצים אבן עם השם שלכם בקיר הבונים? אפשר גם להקדיש. לא חובה — אפשר להמשיך ישר לתשלום.</p>
+    <label class="predonate-label" for="predonateName">שם לתצוגה בקיר <span style="font-weight:400;">(לא חובה)</span></label>
+    <input type="text" id="predonateName" placeholder="לדוגמה: משפחת ישראלי">
+    <label class="anon-check"><input type="checkbox" id="predonateAnon"> אני מעדיף/ה להישאר אנונימי (בלי שם בקיר)</label>
+    <label class="predonate-label" for="predonateAmount">סכום התרומה (₪) <span style="font-weight:400;">(לא חובה)</span></label>
+    <input type="number" id="predonateAmount" placeholder="לדוגמה: 360">
+    <label class="predonate-label" for="predonateDedication">הקדשה — לזכות / לזכר / לרפואת (לא חובה)</label>
+    <input type="text" id="predonateDedication" placeholder='לדוגמה: לזכר סבא משה ז"ל'>
+    <!-- ★ זיפ 83 לבקשת חני (29/07): טלפון אופציונלי — כדי שכל בונה אבן ייכנס
+         למעגל התודות בממשק, גם מי ששילם בהעברה בנקאית (מקרה רמי שדה). -->
+    <label class="predonate-label" for="predonatePhone">טלפון — כדי שנוכל להודות לך אישית (לא חובה)</label>
+    <input type="tel" id="predonatePhone" inputmode="tel" autocomplete="tel" placeholder="לדוגמה: 050-1234567">
+    <p class="predonate-note">מילוי השם מהווה הסכמה להצגתו בקיר. אפשר להשאיר ריק ולתרום בעילום שם. הטלפון נשמר אצלנו בלבד ולעולם לא מוצג באתר.</p>
+    <a class="btn btn-orange" id="predonateContinue" href="#" target="_blank" rel="noopener">💛 ממשיכים לתשלום המאובטח</a>
+    <button type="button" id="predonateAlready" style="display:block; width:100%; margin-top:10px; background:none; border:none; text-decoration:underline; color:inherit; cursor:pointer; font-family:inherit; font-size:.88rem;">כבר תרמתי (העברה בנקאית / ביט / במזומן)? רשמו את האבן בלי תשלום ✓</button>
+  </div>
+</div>
+
+<!-- ===== פופ-אפ תודה אחרי תרומה ===== -->
+<div class="thanks-overlay" id="thanksOverlay">
+  <div class="thanks-box">
+    <button class="thanks-close" id="thanksClose" aria-label="סגירה">✕</button>
+    <div class="thanks-head">
+      <img class="thanks-logo" src="logo.png" alt='בית חב"ד הערבה'>
+      <div class="thanks-title">תודה מכל הלב 💛</div>
+      <div class="thanks-kicker">בית חב"ד הערבה</div>
+    </div>
+    <div class="thanks-body">
+      <h3 id="thanksGreeting">ידיד/ה יקר/ה,</h3>
+      <p>קיבלנו את תרומתך לבניית מתחם האירוח מחדש, ואנחנו מתרגשים ומודים מכל הלב!</p>
+      <p>בזכותך, מטיילי שביל ישראל ימצאו גם בעונה הבאה בית חם באמצע המדבר: לינה, שולחן שבת וכוס קפה.</p>
+      <div class="thanks-sign">בברכה מהערבה,<br>הרב משה וחני בלוי · בית חב"ד הערבה</div>
+      <button class="btn btn-orange" type="button" onclick="document.getElementById('thanksOverlay').classList.remove('show')">אמן, בשמחה! 💛</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ================================================================
+   הגדרות הקמפיין — כאן מעדכנים הכל, בלי לגעת בשאר הקוד
+   ================================================================ */
+/* ★ זיפ 58 לבקשת חני (24/07): לחיצה על "לקיר" נחתה במכתבים ולא בקיר.
+   הסיבה: תמונות הגלריה נטענות עצלן (lazy) ודוחפות את התוכן אחרי הגלילה.
+   הפתרון: גוללים, ואז מתקנים את המיקום שוב אחרי שהפריסה מתייצבת. לא לפשט! */
+function scrollToWall(){
+  var el = document.getElementById('donors');
+  if (!el) return;
+  if (getComputedStyle(el).display === 'none'){
+    var f = document.getElementById('wallPreview');
+    if (f) f.scrollIntoView({behavior:'smooth', block:'start'});
+    return;
+  }
+  el.scrollIntoView({behavior:'smooth', block:'start'});
+  [350, 800, 1400].forEach(function(t){
+    setTimeout(function(){
+      var r = el.getBoundingClientRect();
+      if (Math.abs(r.top) > 60) window.scrollTo({top: window.scrollY + r.top - 12, behavior:'smooth'});
+    }, t);
+  });
+}
+
+/* ★ זיפ 59 לבקשת חני (24/07): אנליטיקה פנימית — נבנתה לקראת הסבב השני.
+   כל אירוע נרשם ללשונית "אנליטיקה" בגיליון הפרטי. בלי עוגיות, בלי גוגל,
+   בלי מידע אישי — רק ספירת אירועים. פעם אחת מכל סוג לביקור. */
+(function(){
+  var sent = {};
+  function track(ev, detail){
+    try{
+      if (sent[ev + '|' + (detail||'')]) return;
+      sent[ev + '|' + (detail||'')] = 1;
+      var body = JSON.stringify({action:'track', ev:ev, detail:String(detail||''), m:(innerWidth<760?1:0)});
+      if (navigator.sendBeacon){
+        navigator.sendBeacon(CAMPAIGN.apiUrl, new Blob([body], {type:'text/plain'}));
+      } else {
+        fetch(CAMPAIGN.apiUrl, {method:'POST', body:body, keepalive:true, mode:'no-cors'});
+      }
+    }catch(e){}
+  }
+  window.aravaTrack = track;
+  // ביקור
+  /* ★ v69 (26/07) לבקשת חני: קישור שנשלח בוואטסאפ מגיע בלי referrer, ולכן כמעט
+     כל הביקורים נרשמו "ישיר". מעכשיו, אם בקישור יש שגריר (?s=) — הוא נרשם כמקור
+     ההגעה, ודוח "מקורות הגעה" בתפריט הגיליון הופך ללוח מנהיגות של השגרירים. */
+  var _amb = new URLSearchParams(location.search).get('s');
+  /* ★ זיפ 77 (29/07) — תיקון באג קריטי: const CAMPAIGN מוגדר רק בהמשך הקובץ,
+     והקריאה כאן רצה לפניו ← ReferenceError שנבלע ב-try/catch ← אפס אירועי
+     "ביקור" נרשמו מאז זיפ 59. setTimeout(0) דוחה את הרישום לאחרי טעינת הסקריפט
+     — ומונה הביקורים ולוח השגרירים מתחילים סוף-סוף לעבוד. לא להחזיר לקריאה ישירה! */
+  setTimeout(function(){
+    track('ביקור', _amb ? ('שגריר: ' + _amb) : (document.referrer ? document.referrer.split('/')[2] : 'ישיר'));
+  }, 0);
+  // גלילה לקיר
+  var wallSeen = false;
+  addEventListener('scroll', function(){
+    if (wallSeen) return;
+    var el = document.getElementById('donors') || document.getElementById('wallPreview');
+    if (el && el.getBoundingClientRect().top < innerHeight){ wallSeen = true; track('צפה בקיר'); }
+  }, {passive:true});
+  // לחיצות תרומה — כל קישור grow + כרטיסי המדרגות
+  document.addEventListener('click', function(e){
+    var a = e.target.closest('a,button');
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    if (href.indexOf('grow.link') > -1){
+      var tier = a.closest('.tier');
+      var nm = tier ? (tier.querySelector('h3')||{}).textContent : 'כפתור כללי';
+      /* ★ זיפ 77 (29/07) — משימה 7: צירוף שם השגריר ללחיצה, כדי שדוח 📊 יראה
+         לא רק מי מביא ביקורים אלא גם מי מביא לחיצות-תרומה. */
+      track('לחץ לתרומה', (nm || 'כפתור כללי') + (_amb ? ' · שגריר: ' + _amb : ''));
+    }
+    if (a.id === 'donateWa' || a.id === 'floatWa' || a.id === 'footerWa' || a.className.indexOf('faq-wa') > -1){
+      track('פנה בוואטסאפ');
+    }
+  }, {passive:true});
+  // עומק שהייה
+  setTimeout(function(){ track('שהה 30 שניות'); }, 30000);
+})();
+
+const CAMPAIGN = {
+  goal: 200000,          // יעד בש"ח
+  stretchGoal: 250000,   // יעד נוסף — מוצג אוטומטית כשעוברים את היעד המקורי. ריק/null = בלי יעד נוסף
+  raised: 0,             // כמה גויס עד עכשיו — לעדכן ידנית
+  donors: 0,             // מספר תורמים (0 = לא מציגים)
+  donateUrl: "https://pay.grow.link/NDk3NTk~1f50084c2f405ea304c2b5ad8a41bea0-MzcwODM4MQ", // תרומה כללית — "כל סכום" חד-פעמי (GROW). משמש את הירו, הכפתור הצף, כרטיס האשראי וכרטיס "כל סכום"
+  pageUrl: "https://kampainbeitchabadarava.netlify.app/",  // הכתובת הקבועה של עמוד הקמפיין
+  /* לשונית "תורמים" — הגיליון הציבורי בלבד (★ אבטחה 21/07: הוסר קישור הפרסום-לרשת של הגיליון הישן) */
+  sheetCsvUrls: [
+    "https://docs.google.com/spreadsheets/d/1I3umy0jeLQPXEbnWcnS265o9f72nerphycW0LWwqsfo/gviz/tq?tqx=out:csv&sheet=תורמים"
+  ],
+  apiUrl: "https://script.google.com/macros/s/AKfycbwaSTNCh03RNwslV5GFn6jcnqh0CU7wcFTYw74ISZnw2kM6BaWYOyVa8GQgz6etSGSO0g/exec", // Apps Script של הגיליון — לכתיבת הקדשה חדשה ("הוסיפו אבן לקיר"). ★ זיפ 33 (22/07): הכתובת החדשה — הישנה (AKfycbzPAo99…) שייכת לפרויקט אבוד עם קוד ישן. לא להחזיר אותה!
+  // לשונית "הקדשות" (gid=1715859249) — מקור השמות + המסלול לקיר הכבוד. מנסה כמה דרכים; הראשונה שתעבוד מנצחת.
+  /* ★ אבטחה (21/07): הוסרו כתובות הגיליון הפרטי — האתר הציבורי קורא אך ורק מהגיליון
+     הציבורי (בלי טלפונים). לא להחזיר את הכתובות הפרטיות לכאן לעולם! */
+  dedicationsCsvUrls: [
+    "https://docs.google.com/spreadsheets/d/1I3umy0jeLQPXEbnWcnS265o9f72nerphycW0LWwqsfo/gviz/tq?tqx=out:csv&sheet=הקדשות"
+  ],
+  waAmbassador: "972545918770", // וואטסאפ של חני לשגרירים
+  shareText: "הסופה הרסה את מתחם האירוח של בית חב\"ד הערבה — התחנה החמה של מטיילי שביל ישראל 🥾⛺\nעוזרים לבנות אותו מחדש לפני העונה! כל תרומה בונה: לינה, סעודות שבת, מקלחת ופינת קפה למטיילים.\nלתרומה ולפרטים:"
+};
+
+/* ---- קישורי תרומה ----
+   הכפתורים הכלליים (הירו "אני שותף/ה בבנייה" + הכפתור הצף) מובילים אל מדרגות התרומה —
+   שם התורם רואה את כל האופציות (הו"ק חודשית, סכום חופשי, אשראי, בנק) ובוחר.
+   פופ-אפ ההקדשה נפתח מכל מדרגה — כך אף אחד לא מדלג על ההוראת-קבע. */
+[document.getElementById('donateHero'), document.querySelector('.float-donate a.donate-link'), ...document.querySelectorAll('a.goto-tiers')].forEach(a => {   /* ★ זיפ 52: סלקטור ממוקד — כפתור הוואטסאפ הצף לא ייחטף */
+  if(!a) return;
+  a.classList.remove('donate-link');
+  a.removeAttribute('target');
+  a.setAttribute('href', '#tiers');
+  a.addEventListener('click', () => {
+    const t = document.getElementById('tiers');
+    if(t){ t.classList.add('tiers-flash'); setTimeout(() => t.classList.remove('tiers-flash'), 1700); }
+  });
+});
+document.querySelectorAll('.donate-link').forEach(a => a.href = CAMPAIGN.donateUrl);
+
+/* ---- פופ-אפ "רגע לפני התרומה" ----
+   נפתח בלחיצה על כל כפתור תרומה באתר (מדרגות חד-פעמיות, מדרגות חודשיות, כרטיס אשראי, כפתור צף, הירו).
+   לא חוסם תשלום — כל השדות אופציונליים, ואפשר להמשיך ישר לתשלום. הסכום מוצע כברירת מחדל
+   לפי המדרגה שנלחצה, אך ניתן לעריכה. השם/סכום/הקדשה מצורפים כפרמטרים לכתובת התשלום (אם גרו תומך במילוי מראש). */
+const predonateOverlay = document.getElementById('predonateOverlay');
+const predonateName = document.getElementById('predonateName');
+const predonateAmount = document.getElementById('predonateAmount');
+const predonateDedication = document.getElementById('predonateDedication');
+const predonatePhone = document.getElementById('predonatePhone');   /* ★ זיפ 83 */
+const predonateContinue = document.getElementById('predonateContinue');
+const predonateAnon = document.getElementById('predonateAnon');
+let predonateTargetUrl = '';
+let predonateTierAmount = '';
+
+/* צ'קבוקס אנונימי — מנקה ומנטרל את שדה השם */
+predonateAnon.addEventListener('change', () => {
+  if (predonateAnon.checked){ predonateName.value = ''; predonateName.disabled = true; }
+  else { predonateName.disabled = false; predonateName.focus(); }
+});
+
+let predonateMonthly = false;
+document.querySelectorAll('.donate-link, .tier a.btn').forEach(a => {
+  a.addEventListener('click', (e) => {
+    e.preventDefault();
+    predonateTargetUrl = a.getAttribute('href');
+    const tierCard = a.closest('.tier');
+    const amountDigits = tierCard ? (tierCard.querySelector('.amount')?.textContent || '').replace(/[^\d]/g,'') : '';
+    predonateMonthly = !!(tierCard && tierCard.querySelector('.per-month'));   /* כרטיס חודשי = הוראת קבע */
+    predonateTierAmount = amountDigits || '';   /* סכום המדרגה — ברירת מחדל אם התורם לא הקליד סכום */
+    predonateAmount.value = '';
+    predonateAmount.placeholder = amountDigits ? ('לדוגמה: ' + amountDigits) : 'לדוגמה: 180';
+    predonateName.value = '';
+    predonateName.disabled = false;
+    predonateAnon.checked = false;
+    predonateDedication.value = '';
+    if(predonatePhone) predonatePhone.value = '';   /* ★ זיפ 83 */
+    predonateOverlay.classList.add('show');
+    predonateName.focus();
+  });
+});
+predonateContinue.addEventListener('click', (e) => {
+  e.preventDefault();
+  const nm  = (!predonateAnon.checked && predonateName.value.trim()) ? predonateName.value.trim() : '';
+  /* אם לא הוקלד סכום — סכום המדרגה שנלחצה הוא ברירת המחדל (אחרת ההקדשה נשמרת בלי סכום ולא נבנית אבן) */
+  const amt = predonateAmount.value.trim() || predonateTierAmount || '';
+  const ded = predonateDedication.value.trim();
+  /* ★ שמירה מיידית לגיליון — כך שם/הקדשה לא הולכים לאיבוד גם אם גרו לא מחזיר אותם.
+     נשמר כ"קיר" (שם בלבד, לא נספר ככסף — הכסף נספר מחיוב גרו). נשמר רק אם יש שם או הקדשה. */
+  if (CAMPAIGN.apiUrl && (nm || ded)) {
+    const amtNum = parseFloat((amt || '').replace(/[^\d.]/g,'')) || 0;
+    const plan = predonateMonthly ? ((amtNum ? amtNum + ' ₪ ' : '') + 'לחודש × 12 חודשים') : '';
+    try {
+      fetch(CAMPAIGN.apiUrl, {
+        method:'POST', keepalive:true,
+        headers:{'Content-Type':'text/plain;charset=utf-8'},
+        body: JSON.stringify({action:'dedicate', name:nm, amount:String(amtNum||''), dedication:ded, approve:true, plan:plan, phone:(predonatePhone && predonatePhone.value.trim()) || ''})   /* ★ זיפ 83 */
+      }).catch(()=>{});
+    } catch(_) {}
+  }
+  const params = new URLSearchParams();
+  if (nm)  params.set('donor_name', nm);
+  if (amt) params.set('amount', amt);
+  if (ded) params.set('dedication', ded);
+  const qs = params.toString();
+  const sep = predonateTargetUrl.includes('?') ? '&' : '?';
+  window.open(qs ? (predonateTargetUrl + sep + qs) : predonateTargetUrl, '_blank', 'noopener');
+  predonateOverlay.classList.remove('show');
+  /* לזיהוי חזרה מהתשלום — לפתיחת פופ-אפ התודה (גיבוי אם אין redirect בגרו) */
+  window._payStart = Date.now();
+  window._donorName = nm;
+  /* ★ זיפ 81 לבקשת חני (29/07): שמירת פרטי האבן לדף התודה — כך התורם רואה את
+     האבן שלו מיד אחרי התשלום, בלי לחפש בקיר ובלי להמתין לסנכרון. */
+  try{ localStorage.setItem('arava-my-stone', JSON.stringify({ n:nm, a:amt, d:ded, m:predonateMonthly, t:Date.now() })); }catch(_){}
+});
+/* פתיחת פופ-אפ ההקדשה מהקיר — אותה זרימה בדיוק כמו כל כפתורי התרומה: הקדשה → תשלום מאובטח → תודה */
+function openPredonateGeneral(){
+  predonateTargetUrl = CAMPAIGN.donateUrl;
+  predonateMonthly = false;
+  predonateTierAmount = '';
+  predonateAmount.value = '';
+  predonateAmount.placeholder = 'לדוגמה: 180';
+  predonateName.value = '';
+  predonateName.disabled = false;
+  predonateAnon.checked = false;
+  predonateDedication.value = '';
+  predonateOverlay.classList.add('show');
+  predonateName.focus();
+}
+window.openPredonateGeneral = openPredonateGeneral;
+
+/* "כבר תרמתי" מתוך פופ-אפ ההקדשה — מעביר את מה שכבר הוקלד לפופ-אפ רישום האבן (בלי תשלום),
+   כדי שתורם שנזכר להוסיף אבן אחרי שכבר תרם לא יאבד את ההקדשה ולא יחויב שוב. */
+document.getElementById('predonateAlready').addEventListener('click', () => {
+  const nm  = (!predonateAnon.checked && predonateName.value.trim()) ? predonateName.value.trim() : '';
+  const amt = predonateAmount.value.trim() || predonateTierAmount || '';
+  const ded = predonateDedication.value.trim();
+  predonateOverlay.classList.remove('show');
+  openDedicate();
+  document.getElementById('dedName').value = nm;
+  document.getElementById('dedAmount').value = amt;
+  document.getElementById('dedText').value = ded;
+});
+
+document.getElementById('predonateClose').addEventListener('click', () => predonateOverlay.classList.remove('show'));
+predonateOverlay.addEventListener('click', (e) => { if (e.target.id === 'predonateOverlay') predonateOverlay.classList.remove('show'); });
+
+/* ---- מד התקדמות ---- */
+const fmt = n => n.toLocaleString('he-IL') + ' ₪';
+
+function renderMeter(raised, donors){
+  /* יעד נוסף: אם עברנו את היעד המקורי ומוגדר stretchGoal, המד עובר להציג אותו במקום להיתקע על 100% */
+  const stretchActive = !!(CAMPAIGN.stretchGoal && raised > CAMPAIGN.goal);
+  const activeGoal = stretchActive ? CAMPAIGN.stretchGoal : CAMPAIGN.goal;
+  document.getElementById('goalNum').textContent = fmt(activeGoal);
+  const stretchEl = document.getElementById('stretchNote');
+  if (stretchActive) {
+    stretchEl.textContent = '🎉 עברנו את היעד המקורי (' + fmt(CAMPAIGN.goal) + ')! יצאנו ליעד נוסף: ' + fmt(CAMPAIGN.stretchGoal);
+    stretchEl.classList.add('show');
+  } else {
+    stretchEl.classList.remove('show');
+  }
+  const p = Math.min(100, raised / activeGoal * 100);
+  /* מתחת ל-1% מציגים עשירית אחוז; הפס מקבל רוחב מינימלי נראה לעין */
+  const pct = (p > 0 && p < 1) ? p.toFixed(1) : Math.round(p);
+  const barW = raised > 0 ? Math.max(p, 1.5) : 0;
+  document.getElementById('pctNum').textContent = pct + '%';
+  document.getElementById('donorsNum').textContent = donors > 0 ? donors.toLocaleString('he-IL') + ' שותפים' : '';
+  const raisedEl = document.getElementById('raisedNum');
+  const from = parseInt((raisedEl.textContent||'0').replace(/[^\d]/g,'')) || 0;
+  const dur = 1500, t0 = performance.now();
+  (function count(t){
+    const p = Math.min(1, (t - t0) / dur);
+    raisedEl.textContent = fmt(Math.round(from + (raised - from) * (1 - Math.pow(1 - p, 3))));
+    if (p < 1) requestAnimationFrame(count);
+  })(t0);
+  setTimeout(() => {
+    document.getElementById('meterFill').style.width = barW + '%';
+    const mk = document.getElementById('meterMarker');
+    mk.style.right = barW + '%';
+    /* ★ זיפ 37 לבקשת חני (22/07): המטייל גדל עם ההתקדמות — נראות ויזואלית לצמיחה. לא להחזיר. */
+    mk.style.fontSize = (1.35 + Math.min(100, p) * 0.012).toFixed(2) + 'rem';
+    document.getElementById('meterGoalIcon').textContent = p >= 100 ? '🏠' : '🏕️';
+  }, 300);
+}
+renderMeter(CAMPAIGN.raised, CAMPAIGN.donors);
+
+/* ---- חיבור חי לגיליון התרומות ----
+   הגיליון: עמודה A = שם התורם (ריק או "אנונימי" = יוצג כתורם אנונימי), עמודה B = סכום בש"ח,
+   עמודה C = הקדשה (לא חובה), עמודה D = מקור/src — שורה עם src="קיר" (שנוספה דרך "הוסיפו אבן לקיר")
+   מוצגת בקיר בלבד ולא נספרת שוב בסרגל, כדי שלא תהיה כפילות עם תשלום שכבר נספר.
+   שורה ראשונה = כותרות. הדף קורא את הגיליון בכל טעינה ומעדכן סרגל + קיר תורמים (קיר אבנים, זהב מ-1,800 ₪). */
+function parseCsv(text){
+  const rows=[]; let row=[], cell='', q=false;
+  for(let i=0;i<text.length;i++){
+    const c=text[i];
+    if(q){ if(c==='"'){ if(text[i+1]==='"'){cell+='"';i++;} else q=false; } else cell+=c; }
+    else if(c==='"') q=true;
+    else if(c===','){ row.push(cell); cell=''; }
+    else if(c==='\n'||c==='\r'){ if(cell!==''||row.length){ row.push(cell); rows.push(row); row=[]; cell=''; } }
+    else cell+=c;
+  }
+  if(cell!==''||row.length){ row.push(cell); rows.push(row); }
+  return rows;
+}
+/* מדרגות הכבוד (לפי השווי השנתי המלא — הו"ק 770 לחודש = 9,240 = זהב מובהק):
+   👑 זהב מ-1,800 · ✨ כסף 770-1,799 · 🧡 נחושת 250-769 · ברונזה 101-249 · חול (בהיר) עד 100 */
+function brickTier_(amt){
+  if(amt >= 1800) return 'gold';
+  if(amt >= 770) return 'silver';
+  if(amt >= 250) return 'copper';
+  if(amt > 0 && amt <= 100) return 'sand';
+  return '';
+}
+function addSpan_(parent, cls, txt){ const s = document.createElement('span'); if(cls) s.className = cls; s.textContent = txt; parent.appendChild(s); }
+
+/* בונה אבן בודדת. d = {name, amount, recurring, monthly, ded} */
+function makeBrick_(d, i){
+  const brick = document.createElement('div');
+  const t = brickTier_(d.amount);
+  brick.className = 'brick' + (t ? (' ' + t) : (d.ded ? ' with-ded' : ''));
+  brick.style.animationDelay = Math.min(i * 70, 1400) + 'ms';
+  if(t === 'gold') addSpan_(brick, 'brick-icon', '👑');
+  else if(t === 'silver') addSpan_(brick, 'brick-icon', '✨');
+  else if(t === 'copper') addSpan_(brick, 'brick-icon', '🧡');
+  else if(t === 'sand') addSpan_(brick, 'brick-icon', '🌱');   /* כל שקל — זרע בבניין */
+  if(d.recurring) addSpan_(brick, 'hk-ribbon', '🔁 שותף/ה בהוראת קבע');
+  /* תגי "אבן זהב"/"אבן כסף"/"אבן נחושת" הוסרו לבקשת חני (21/07) — הצבע והאייקון
+     מספרים את הסיפור; על האבן רק: תורם, סכום, הו"ק אם יש. לא להחזיר. */
+  if(d.name) addSpan_(brick, '', d.name);   /* ★ זיפ 33: אבן אנונימית עם הקדשה — בלי שורת שם */
+  if(d.recurring && d.monthly > 0){
+    const mo = Math.max(1, Math.round(d.amount / d.monthly));
+    addSpan_(brick, 'brick-amt', fmt(d.monthly) + ' × ' + mo);   /* למשל: 770 ₪ × 12 */
+    addSpan_(brick, 'rec-note', 'לחודש · בהוראת קבע');
+  } else if(d.amount > 0){
+    addSpan_(brick, 'brick-amt', fmt(d.amount));
+  }
+  if(d.ded) addSpan_(brick, 'ded', d.ded);
+  return brick;
+}
+
+/* ★ זיפ 79: מיון יציב לפי תאריך התרומה — חדש למעלה. פריטים בלי תאריך (ts=0)
+   נשארים בסדר ההופעה המקורי (הפוך, כמו קודם) אחרי המתוארכים. */
+function sortByDate_(list){
+  return list.map((d, i) => ({ d:d, i:i }))
+    .sort((a, b) => ((b.d.ts||0) - (a.d.ts||0)) || (b.i - a.i))
+    .map(x => x.d);
+}
+
+/* מצייר את הקיר המלא + הפס המקוצר מתוך רשימת אבני הכבוד.
+   ★ לבקשת חני (22/07, זיפ 33): גם אבן אנונימית עם הקדשה נכנסת — בלי שם. לא להחזיר. */
+function renderWall_(list){
+  const named = (list || []).filter(d => d && !/בדיקה/.test(String(d.name||'')) &&
+    ((d.name && !/אנונימי|עילום/.test(d.name)) || (d.ded && String(d.ded).trim())));
+  const wall = document.getElementById('donorWall');
+  if(wall){
+    wall.textContent = '';
+    /* ★ זיפ 47 לבקשת חני (23/07): הקיר בסדר כרונולוגי — "הכל מבורך אצלנו",
+       אין דירוג לפי גודל התרומה. לא להחזיר מיון לפי סכום!
+       ★ זיפ 79 לבקשת חני (29/07): הכרונולוגיה לפי תאריך התרומה האמיתי (ts),
+       לא לפי מיקום השורה בגיליון — אבן שאושרה באיחור (סגל, כהן, רמי שדה)
+       עולה לראש הקיר ולתצוגה המקדימה כמו כל תרומה חדשה. שורות בלי תאריך
+       שומרות על מקומן היחסי בסוף. */
+    sortByDate_(named).forEach((d, i) => wall.appendChild(makeBrick_(d, i)));
+    document.getElementById('wallCount').textContent = named.length ? ('כבר ' + named.length.toLocaleString('he-IL') + ' אבנים בקיר — ומחכים לשלכם') : '';
+    document.getElementById('donors').style.display = named.length ? 'block' : 'none';
+  }
+  /* ★ זיפ 42 לבקשת חני: הפס שמתחת לסרגל = "הצטרפו הרגע" — האחרונות שהצטרפו,
+     מכל הגדלים, כדי שכל תורם יראה את האבן שלו מיד בלי לגלול. לא להחזיר. */
+  const preview = sortByDate_(named).slice(0, 12);   /* ★ זיפ 79: אותו מיון גם ב"הצטרפו הרגע" · ★ זיפ 80 לבקשת חני: 12 אבנים במקום 8 */
+  const wpRow = document.getElementById('wpRow');
+  if(wpRow){
+    wpRow.textContent = '';
+    preview.forEach(d => {
+      const el = document.createElement('div');
+      const t = brickTier_(d.amount);
+      el.className = 'wp-brick' + (t ? (' ' + t) : '');
+      /* ★ זיפ 42: הפס מציג עכשיו את כל הגדלים — אייקונים תואמים לקיר */
+      if(t) addSpan_(el, 'wp-ic', t === 'gold' ? '👑' : t === 'silver' ? '✨' : t === 'copper' ? '🧡' : '🌱');
+      addSpan_(el, '', d.name || d.ded);   /* ★ זיפ 33: אבן אנונימית — ההקדשה במקום השם בפס המקוצר */
+      if(d.recurring && d.monthly > 0){
+        const mo = Math.max(1, Math.round(d.amount / d.monthly));
+        addSpan_(el, 'wp-amt', fmt(d.monthly) + ' × ' + mo);
+        addSpan_(el, 'wp-mo', '🔁 הו"ק');
+      } else if(d.amount > 0){
+        addSpan_(el, 'wp-amt', fmt(d.amount));
+      }
+      wpRow.appendChild(el);
+    });
+    /* שורת "כבר X שותפים" הוסרה (20.7) — מספר השותפים מוצג פעם אחת, בסרגל בלבד */
+    document.getElementById('wallPreview').classList.toggle('show', named.length > 0);
+  }
+}
+
+/* ★ זיפ 25: אבנים מוסתרות (ממתין לאימות/נדחה) — נאספות כאן בזמן קריאת "הקדשות",
+   כדי שגם שורת ה"קיר" המקבילה בלשונית "תורמים" לא תעלה לקיר בדלת האחורית. */
+const hiddenStones_ = new Set();
+
+/* גיבוי: בניית הקיר מה-CSV אם "הקדשות" לא זמין — סכומים כפי שנגבו, עם איחוד שורות כפולות */
+function wallFromCsv_(raw){
+  const header = (raw[0]||[]).map(h => (h||'').trim());
+  const col = (test) => header.findIndex(test);
+  const iName = col(h => /שם/.test(h));
+  let iAmount = col(h => h === 'סכום' || /סכום התרומה/.test(h));
+  if(iAmount < 0) iAmount = col(h => /סכום/.test(h) && !/שנתי|תצוגה/.test(h));
+  const iDed = col(h => /הקדשה|לזכות/.test(h));
+  let iDate = col(h => /תאריך/.test(h));   /* ★ זיפ 79: תאריך — למיון הקיר */
+  /* ★ זיפ 81 (29/07) — באג שחני מצאה: לעמודת התאריך בלשונית "תורמים" אין כותרת
+     כלל, ולכן iDate יצא -1 וכל התרומות החד-פעמיות קיבלו ts=0 ושקעו לתחתית הקיר
+     (רמי שדה). התיקון: אם אין כותרת — מזהים את העמודה לפי התוכן (dd/mm/yyyy).
+     כך המיון עמיד גם אם כותרת תשתנה או תימחק. */
+  if(iDate < 0){
+    const probe = raw.slice(1, 30);
+    for(let c = 0; c < (raw[0]||[]).length; c++){
+      let hits = 0;
+      probe.forEach(r => { if(/^\s*\d{1,2}\/\d{1,2}\/\d{4}/.test(String((r||[])[c]||''))) hits++; });
+      if(hits >= 2){ iDate = c; break; }
+    }
+  }
+  const seen = {}, out = [];
+  raw.slice(1).forEach(r => {
+    const name = iName>=0 ? (r[iName]||'').trim() : '';
+    const amount = parseFloat((r[iAmount]||'').replace(/[^\d.]/g,'')) || 0;
+    const ded = iDed>=0 ? (r[iDed]||'').trim() : '';
+    const ts = iDate>=0 ? parseHeDate_(r[iDate]) : 0;   /* ★ זיפ 79 */
+    if(!name || amount <= 0) return;
+    if(/אנונימי|עילום|בדיקה/.test(name)) return;
+    const key = normName_(name) + '|' + amount;      /* אבן אחת לכל שם+סכום (גם אם פעם מפופ-אפ ופעם מגרו) */
+    if(hiddenStones_.has(key)) return;   /* ★ זיפ 25: האבן הזו ממתינה לאימות תשלום — לא עולה לקיר גם מכאן */
+    if(seen[key]){ if(!seen[key].ded && ded) seen[key].ded = ded;
+      if(ts > (seen[key].ts||0)) seen[key].ts = ts;   /* ★ זיפ 79: החיוב האחרון קובע את המיקום */
+      return; }
+    const o = { name:name, amount:amount, recurring:false, monthly:0, ded:ded, ts:ts };   /* ★ זיפ 79 */
+    seen[key] = o; out.push(o);
+  });
+  return out;
+}
+
+/* בניית קיר הכבוד ישירות מלשונית "הקדשות" (עמודות: תאריך | שם | סכום | הקדשה | מאשר | סטטוס | מסלול).
+   הו"ק (מסלול עם "לחודש"/"חודשים") → הסכום השנתי המלא (חודשי × 12) + סימון recurring.
+   אבן אחת לכל תורם (איחוד חיובים חוזרים). מדולג: אנונימי/בדיקה/נדחה. */
+function wallFromDedications_(raw){
+  hiddenStones_.clear();   /* נבנה מחדש בכל רענון */
+  const header = (raw[0]||[]).map(h => (h||'').trim());
+  const col = (test) => header.findIndex(test);
+  const iName = col(h => /שם/.test(h));
+  const iAmt  = col(h => /סכום/.test(h));
+  const iDed  = col(h => /הקדשה|לזכות/.test(h));
+  const iStat = col(h => /סטטוס/.test(h));
+  const iPlan = col(h => /מסלול/.test(h));
+  const iDate = col(h => /תאריך/.test(h));   /* ★ זיפ 79: תאריך התרומה — למיון הקיר */
+  if(iName < 0 || iAmt < 0 || iPlan < 0) return [];   /* חייבת עמודת "מסלול" — אחרת זו לא "הקדשות" */
+  const byKey = {}, order = [];
+  raw.slice(1).forEach(r => {
+    const name = (r[iName]||'').trim();
+    const amt  = parseFloat((r[iAmt]||'').replace(/[^\d.]/g,'')) || 0;
+    const ded  = iDed>=0 ? (r[iDed]||'').trim() : '';
+    const stat = iStat>=0 ? (r[iStat]||'').trim() : '';
+    const plan = iPlan>=0 ? (r[iPlan]||'').trim() : '';
+    if(/בדיקה/.test(name)) return;
+    /* ★ לבקשת חני (22/07, זיפ 33): אבן אנונימית (בלי שם / "אנונימי") עם הקדשה כן עולה לקיר —
+       מוצגים ההקדשה והסכום בלבד, בלי שם. אנונימית בלי הקדשה — לא מוצגת (רק נספרת בסרגל). לא להחזיר. */
+    const anonRow = !name || /אנונימי|עילום/.test(name);
+    if(anonRow && !ded) return;
+    const dispName = anonRow ? '' : name;   /* סכום אינו חובה — אבן עם שם והקדשה בלבד עולה לקיר בלי סכום */
+    if(/נדח|ממתין לאימות/.test(stat)){
+      hiddenStones_.add(normName_(dispName) + '|' + amt);   /* לחסימת שורת ה"קיר" המקבילה ב"תורמים" */
+      return;   /* אבן מניסיון תשלום שקרס — מוסתרת עד אימות/אישור */
+    }
+    /* ★ נתוני אמת: תווית "לחודש" מהטופס אינה הוכחה להוראת קבע — תורם יכול לשלם חד-פעמי בגרו.
+       הו"ק נספרת ×12 ומוצגת עם 🔁 רק אחרי אימות מול סוג התשלום האמיתי בגרו (סימן ✓ שהסקריפט מחתים).
+       בלי אימות — האבן מוצגת ונספרת לפי הסכום ששולם בפועל. */
+    const verified = /✓/.test(plan);
+    const recurring = verified && /לחוד|חודשים|הוראת\s*קבע/.test(plan);
+    let months = 12; const mM = plan.match(/(\d{1,2})\s*חודשים/); if(mM) months = Number(mM[1]) || 12;
+    let monthly = amt; const mE = plan.match(/(\d[\d,]*)\s*(?:₪|ש"?ח)/); if(recurring && mE){ const v = Number(String(mE[1]).replace(/[^\d]/g,'')); if(v>0) monthly = v; }
+    const annual = recurring ? Math.round(monthly * months) : amt;
+    /* ההקדשה חלק מהמפתח — שתי הוראות קבע של אותו תורם עם שתי הקדשות שונות = שתי אבנים (ושתי השלמות ×12) */
+    const key = recurring ? ('R|'+dispName+'|'+plan+'|'+ded) : ('O|'+dispName+'|'+amt+'|'+ded);
+    if(byKey[key]){ if(!byKey[key].ded && ded) byKey[key].ded = ded; return; }
+    byKey[key] = { name:dispName, amount:annual, recurring:recurring, monthly: recurring?monthly:0, ded:ded, rawAmt:amt,
+                   ts: iDate>=0 ? parseHeDate_(r[iDate]) : 0 };   /* ★ זיפ 79 */
+    order.push(key);
+  });
+  return order.map(k => byKey[k]);
+}
+
+function normName_(n){ return String(n||'').trim().replace(/\s+/g,' '); }
+
+/* ★ זיפ 79 לבקשת חני (29/07): פענוח תאריך מהגיליון (28/07/2026 23:34:39) לצורך
+   מיון הקיר לפי מועד התרומה האמיתי — אבן שאושרה באיחור עולה לראש, לא נשארת
+   תקועה במיקום השורה שלה. מחזיר 0 אם אין תאריך (ואז נשמר הסדר הקיים). */
+function parseHeDate_(v){
+  const m = String(v||'').match(/(\d{1,2})\/(\d{1,2})\/(\d{4})(?:\s+(\d{1,2}):(\d{2})(?::(\d{2}))?)?/);
+  if(!m) return 0;
+  return new Date(+m[3], +m[2]-1, +m[1], +(m[4]||0), +(m[5]||0), +(m[6]||0)).getTime() || 0;
+}
+
+async function loadDonations(){
+  /* ===== 1) לשונית "הקדשות" — מידע על הו"ק והמסלול (למי שיש) ===== */
+  let dedList = null;
+  if(Array.isArray(CAMPAIGN.dedicationsCsvUrls)){
+    for(const url of CAMPAIGN.dedicationsCsvUrls){
+      try{
+        const res = await fetch(url, {cache:'no-store'});
+        if(!res.ok) continue;
+        const list = wallFromDedications_(parseCsv(await res.text()));
+        if(list.length){ dedList = list; break; }
+      }catch(e){}
+    }
+  }
+  /* גיבוי — פיד ה-Apps Script (אם פרוס) */
+  if(!dedList && CAMPAIGN.apiUrl){
+    try{
+      const res = await fetch(CAMPAIGN.apiUrl + '?action=wall', {cache:'no-store'});
+      const out = await res.json();
+      if(out && out.ok && Array.isArray(out.wall) && out.wall.length) dedList = out.wall;
+    }catch(e){}
+  }
+  /* מפה: שם → רשימת הו"ק (תורם יכול להחזיק יותר מהוראת קבע אחת — כל אחת אבן משלה) */
+  const recMap = {};
+  if(dedList){ dedList.forEach(d => { if(d.recurring){ const k = normName_(d.name); (recMap[k] = recMap[k] || []).push(d); } }); }
+
+  /* ===== 2) לשונית "תורמים" — כל התרומות (בסיס מלא + נתונים גולמיים לסרגל) =====
+     מנסה את הכתובות לפי הסדר: הגיליון הציבורי החדש קודם, הישן כגיבוי אוטומטי. */
+  let base = null, rawTor = null;
+  const torUrls = Array.isArray(CAMPAIGN.sheetCsvUrls) ? CAMPAIGN.sheetCsvUrls : (CAMPAIGN.sheetCsvUrl ? [CAMPAIGN.sheetCsvUrl] : []);
+  for(const url of torUrls){
+    try{
+      const res = await fetch(url, {cache:'no-store'});
+      if(!res.ok) continue;
+      const rows = parseCsv(await res.text());
+      if(rows.length > 1){ rawTor = rows; base = wallFromCsv_(rows); break; }
+    }catch(e){}
+  }
+
+  /* ===== 3) קיר הכבוד — שמות (הו"ק עם ×12) ===== */
+  let donors = [];
+  if(base && base.length){
+    const seenRec = {};
+    base.forEach(d => {
+      const k = normName_(d.name);
+      const recs = recMap[k];
+      if(recs){
+        if(seenRec[k]) return;                                   /* מטפלים בכל ההו"ק של השם פעם אחת */
+        seenRec[k] = 1;
+        recs.forEach(rd => donors.push({ name:d.name, amount:rd.amount, recurring:true, monthly:rd.monthly, ded:rd.ded || d.ded,
+          ts: Math.max(rd.ts||0, d.ts||0) }));   /* ★ זיפ 79: התאריך העדכני מבין האבן והחיוב */
+      } else {
+        donors.push(d);   /* חד-פעמי */
+      }
+    });
+    /* תורמי הו"ק שב"הקדשות" אך לא ב"תורמים" (למשל שהוזנו ידנית) — להוסיף לקיר */
+    const inBase = {}; base.forEach(d => inBase[normName_(d.name)] = 1);
+    /* ★★ זיפ 67 (24/07) — תיקון קריטי שחני מצאה: אבנים שלא עלו לקיר ★★
+       הבאג: הקדשה שאינה בלשונית "תורמים" עלתה לקיר רק אם היא הו"ק או שסכומה 0.
+       לכן הקדשה חד-פעמית עם סכום, ששמה נכתב אחרת מהשם בגרו, נעלמה בשקט —
+       למשל "זלמן וחני זוננפלד" מול "זלמן זוננפלד", או "Ella Zeiler" באנגלית.
+       התיקון: כל הקדשה מאושרת שאינה בתורמים מקבלת אבן. הכסף בסרגל מחושב
+       בנפרד מלשונית "תורמים" ולכן אינו מושפע. לא להחזיר את התנאי הישן! */
+    if(dedList){ dedList.forEach(d => { const k = normName_(d.name); if(!k) return; if(!inBase[k] && !seenRec[k]){ seenRec[k] = 1; (d.recurring ? recMap[k] : [d]).forEach(rd => donors.push(rd)); } }); }
+    /* ★ לבקשת חני (22/07, זיפ 33): אבנים אנונימיות עם הקדשה מגיעות רק מ"הקדשות"
+       (הבסיס מ"תורמים" הוא לפי שם בלבד) — מוסיפים אותן כאן. לא להחזיר. */
+    if(dedList){ dedList.forEach(d => { if(!normName_(d.name) && d.ded && String(d.ded).trim()){ donors.push(d); } }); }
+  } else if(dedList){
+    donors = dedList;
+  }
+  const named = donors.filter(d => d && !/בדיקה/.test(String(d.name||'')) &&
+    ((d.name && !/אנונימי|עילום/.test(String(d.name))) || (d.ded && String(d.ded).trim())));
+
+  /* ===== 4) הסרגל — כסף אמיתי שנגבה בגרו + השלמת ×12 להוראות קבע ===== *
+   * המונה = סך כל חיובי גרו/ידני בפועל (כל תרומה פעם אחת לפי שורה בגיליון).
+   * שורות "קיר" (פופ-אפ) הן שם-בלבד ולא כסף נוסף — כדי לא לספור כפול.
+   * ועל זה מתווספת ההשלמה לשנה מלאה (חודשי × 11) עבור מנויי הוראת-קבע אמיתיים. */
+  /* ★★ זיפ 60 (24/07) — תיקון ניפוח הו"ק (דוח-ביקורת #4, חובה לפני 10/08) ★★
+     הבאג: ההשלמה הייתה תמיד ×11 בהנחה שנגבה חיוב אחד. מהחיוב החודשי השני
+     (אמצע אוגוסט) כל הו"ק הייתה נספרת 13, 14... חודשים, וכל חיוב חודשי היה
+     מוסיף שותף נוסף למונה.
+     התיקון: (א) ההשלמה = 12 פחות מספר החיובים שנגבו בפועל, לעולם לא שלילית.
+             (ב) מונה השותפים סופר תורמים ייחודיים ולא שורות חיוב.
+     לא להחזיר את ×11 הקבוע! */
+  let money = 0, count = 0;
+  const chargesByName = {};        // שם מנורמל → רשימת סכומי החיובים שנגבו
+  const uniqueDonors = new Set();  // מונה שותפים לפי אדם, לא לפי שורה
+  let anonRows = 0;                // שורות בלי שם — נספרות כפי שהן
+  if(rawTor && rawTor.length){
+    const H = rawTor[0].map(h => (h||'').trim());
+    const iAmt = H.findIndex(h => /סכום/.test(h) && !/שנתי|תצוגה/.test(h));
+    const iSrc = H.findIndex(h => /מקור/.test(h));
+    const iDoc = H.findIndex(h => /מסמך/.test(h));
+    const iNam = H.findIndex(h => /שם/.test(h));
+    rawTor.slice(1).forEach(r => {
+      const src = iSrc>=0 ? String(r[iSrc]||'').trim() : '';
+      const amt = parseFloat(String(r[iAmt]||'').replace(/[^\d.]/g,'')) || 0;
+      const doc = iDoc>=0 ? String(r[iDoc]||'').trim() : '';
+      const nam = iNam>=0 ? normName_(r[iNam]) : '';
+      if(amt <= 0) return;
+      /* ★ זיפ 35 (22/07): שורת "קיר" בלי מספר מסמך = רישום מהפופ-אפ בלבד — לא כסף.
+         שורת "קיר" עם מספר מסמך = תשלום אמיתי שהוובהוק/הייבוא מיזגו אליה — נספר פעם אחת!
+         (לפני התיקון תרומה ממוזגת נעלמה מהסרגל — באג שחני מצאה. לא להחזיר.) */
+      if(src === 'קיר' && !doc) return;
+      money += amt;                          /* כסף אמיתי — כל חיוב נספר */
+      if(nam && !/אנונימי|עילום/.test(nam)){ (chargesByName[nam] = chargesByName[nam] || []).push(amt); uniqueDonors.add(nam); }
+      else anonRows += 1;
+    });
+  }
+  count = uniqueDonors.size + anonRows;      /* ★ זיפ 60: שותפים לפי תורם */
+  /* השלמה לשנה מלאה עבור הוראות קבע אמיתיות — לפי מה שכבר נגבה בפועל */
+  if(dedList){
+    dedList.forEach(d => {
+      if(!(d.recurring && d.monthly > 0)) return;
+      const paid = chargesByName[normName_(d.name)] || [];
+      /* כמה חיובים בגובה החודשי כבר נגבו מהתורם הזה (מינימום 1 — האבן קיימת) */
+      const charged = Math.max(1, paid.filter(a => Math.abs(a - d.monthly) < 0.5).length);
+      const left = Math.max(0, 12 - charged);
+      money += d.monthly * left;
+    });
+  }
+  /* ★ זיפ 39: "תורמים" לא נטען (למשל בדיוק ברגע שהשיקוף בונה את הלשונית) —
+     מציגים את הערך המלא האחרון מהמטמון; חישוב-מהאבנים רק אם אין שום מטמון.
+     ההצלחה נמדדת לפי טעינת "תורמים" עצמה (ולא לפי הסכום, שיכול להתנפח מהשלמות
+     הו"ק גם בלי תורמים — הפגם של זיפ 38). כך הסרגל לעולם לא מציג מספר חלקי. */
+  const torOk = !!(rawTor && rawTor.length > 1);
+  if(!torOk){
+    let cachedM = 0, cachedC = 0;
+    try{
+      const cch = JSON.parse(localStorage.getItem('arava-meter-cache') || 'null');
+      if(cch && cch.m > 0){ cachedM = cch.m; cachedC = cch.c || 0; }
+    }catch(e){}
+    if(cachedM > 0){ money = cachedM; count = cachedC; }
+    else if(named.length){ money = named.reduce((s,d)=>s+(d.amount||0),0); count = named.length; }
+  }
+
+  const statusEl = document.getElementById('meterStatus');
+  if(named.length || money > 0){
+    renderMeter(Math.round(money), count || named.length);
+    renderWall_(named);
+    if(statusEl) statusEl.textContent = '';
+    /* שמירת הערך האחרון — כדי שגם בתקלת רשת הסרגל לעולם לא יציג 0.
+       ★ זיפ 38: נשמר רק כשהנתונים המלאים נטענו באמת — ערך-גיבוי חלקי לא נכנס למטמון. */
+    if(torOk){ try{ localStorage.setItem('arava-meter-cache', JSON.stringify({ m: Math.round(money), c: count || named.length, t: Date.now() })); }catch(e){} }
+  } else {
+    /* כל המקורות נכשלו — מציגים את הערך האחרון הידוע במקום 0 מאכזב */
+    try{
+      const cache = JSON.parse(localStorage.getItem('arava-meter-cache') || 'null');
+      if(cache && cache.m > 0) renderMeter(cache.m, cache.c || 0);
+    }catch(e){}
+    if(statusEl) statusEl.textContent = 'הנתונים מתעדכנים ברגעים אלה — כל התרומות שמורות 💛';
+  }
+}
+
+/* ---- טעינה + ריענון חי ----
+   ריצה מיידית (עם הצגת הערך השמור מהביקור הקודם עוד לפני שהרשת עונה),
+   ריענון כל 90 שניות, וריענון בחזרה לדף — כך תורם שחוזר מהתשלום רואה את האבן שלו נכנסת. */
+try{
+  const c0 = JSON.parse(localStorage.getItem('arava-meter-cache') || 'null');
+  if(c0 && c0.m > 0) renderMeter(c0.m, c0.c || 0);
+  else { const s0 = document.getElementById('meterStatus'); if(s0) s0.textContent = 'טוען את קיר השותפים…'; }
+}catch(e){}
+let _loadingDonations = false, _lastLoad = 0;
+async function refreshDonations(){
+  if(_loadingDonations) return;
+  _loadingDonations = true; _lastLoad = Date.now();
+  try{ await loadDonations(); } finally { _loadingDonations = false; }
+}
+refreshDonations();
+setInterval(refreshDonations, 90000);
+window.addEventListener('focus', () => { if(Date.now() - _lastLoad > 25000) refreshDonations(); });
+
+/* ---- הוספת אבן לקיר (לתרומות שלא עברו דרך פופ-אפ "רגע לפני התרומה", כגון העברה בנקאית) ---- */
+function openDedicate(){
+  document.getElementById('dedName').value = '';
+  document.getElementById('dedAmount').value = '';
+  document.getElementById('dedText').value = '';
+  const msg = document.getElementById('dedMsg');
+  msg.textContent = ''; msg.className = 'ded-msg';
+  const btn = document.getElementById('dedSubmit');
+  btn.disabled = false; btn.style.display = ''; btn.textContent = 'הוסיפו את האבן שלי 🧱';
+  document.getElementById('dedNext').hidden = true;
+  document.getElementById('dedOverlay').hidden = false;
+  document.body.style.overflow = 'hidden';
+}
+function closeDedicate(){
+  document.getElementById('dedOverlay').hidden = true;
+  document.body.style.overflow = '';
+}
+document.getElementById('dedOverlay').addEventListener('click', e => { if(e.target.id === 'dedOverlay') closeDedicate(); });
+function dedWhatsappFallback(name, amtNum, ded){
+  const text = 'רוצה להוסיף אבן לקיר התורמים 🧱\nשם לתצוגה: ' + (name || 'בעילום שם (הקדשה בלבד)') + '\nסכום: ' + amtNum + ' ₪' + (ded ? ('\nהקדשה: ' + ded) : '');
+  window.open('https://wa.me/' + CAMPAIGN.waAmbassador + '?text=' + encodeURIComponent(text), '_blank', 'noopener');
+}
+function sendDedication(){
+  const name = document.getElementById('dedName').value.trim();
+  const amountTyped = document.getElementById('dedAmount').value.trim();
+  const ded = document.getElementById('dedText').value.trim();
+  const msg = document.getElementById('dedMsg');
+  const btn = document.getElementById('dedSubmit');
+  msg.className = 'ded-msg';
+  const amtNum = parseFloat(amountTyped.replace(/[^\d.]/g,'')) || 0;
+  /* ★ זיפ 36: תואם לכלל של חני מזיפ 33 — אפשר אבן אנונימית עם הקדשה בלבד (בלי שם) */
+  if(!name && !ded){ msg.classList.add('err'); msg.textContent = 'נא למלא שם לתצוגה או הקדשה'; return; }
+  /* הסכום אינו חובה — אבן יכולה לעלות גם עם שם והקדשה בלבד */
+  btn.disabled = true; btn.textContent = 'שולח...';
+  /* כותבים ישירות לגיליון דרך ה-Apps Script (הקדשה נכנסת ל"קיר" עם מקור=קיר, בלי כפל ספירה בסרגל).
+     אם אין apiUrl או שהשליחה נכשלה — נופלים בחזרה לוואטסאפ לחני. */
+  if(!CAMPAIGN.apiUrl){ dedWhatsappFallback(name, amtNum, ded); msg.classList.add('ok'); msg.textContent = 'נפתח וואטסאפ עם הפרטים — לשליחה לחני 💛'; btn.textContent='נשלח ✓'; setTimeout(closeDedicate, 2600); return; }
+  fetch(CAMPAIGN.apiUrl, {
+    method:'POST', keepalive:true,
+    headers:{'Content-Type':'text/plain;charset=utf-8'},
+    body: JSON.stringify({action:'dedicate', name:name, amount:String(amtNum), dedication:ded, approve:true, plan:''})
+  })
+    .then(res => res.json())
+    .then(out => {
+      if(!out || !out.ok) throw new Error((out && out.error) || 'שגיאה');
+      /* ★ האבן נרשמה — אבל זו רק הרשמה! עכשיו מפנים להשלמת התרומה עצמה.
+         פופ-אפ התודה ("קיבלנו את תרומתך") מוצג רק אחרי תשלום או אישור "כבר תרמתי" —
+         כדי שאף אחד לא ירגיש שסיים בלי לתרום בפועל. */
+      msg.classList.add('ok');
+      msg.textContent = 'האבן נרשמה בקיר! 🧱';
+      btn.style.display = 'none';
+      showDedNext_(name, amtNum);
+      refreshDonations();
+    })
+    .catch(e => {
+      /* נפילה לוואטסאפ — כדי שלא יאבד שום דבר. וגם כאן: ממשיכים לתשלום! */
+      dedWhatsappFallback(name, amtNum, ded);
+      msg.classList.add('ok');
+      msg.textContent = 'נפתח וואטסאפ עם הפרטים — לשליחה לחני 💛';
+      btn.style.display = 'none';
+      showDedNext_(name, amtNum);
+    });
+}
+
+/* שלב ההמשך אחרי רישום אבן: כפתור תשלום (עם הסכום שהוזן) + "כבר תרמתי" */
+function showDedNext_(name, amtNum){
+  window._dedName = name || '';
+  const pay = document.getElementById('dedPayBtn');
+  const sep = CAMPAIGN.donateUrl.includes('?') ? '&' : '?';
+  pay.href = CAMPAIGN.donateUrl + (amtNum > 0 ? (sep + 'amount=' + amtNum) : '');
+  document.getElementById('dedNext').hidden = false;
+}
+document.getElementById('dedPayBtn').addEventListener('click', () => {
+  /* יציאה לתשלום בגרו — פופ-אפ התודה ייפתח בחזרה (thanks=1 או זיהוי חזרה ללשונית) */
+  window._payStart = Date.now();
+  window._donorName = window._dedName || '';
+  setTimeout(closeDedicate, 400);
+});
+document.getElementById('dedPaidAlready').addEventListener('click', () => {
+  closeDedicate();
+  thanksShown = false;
+  showThanks(window._dedName || '');
+});
+
+/* ---- עמוד שגריר אישי ----
+   לכל שגריר נותנים קישור עם השם שלו בסוף, למשל:
+   https://הכתובת-של-העמוד/campaign.html?s=דנה
+   הדף יציג באנר אישי, וכל שיתוף מהעמוד ישמור על שם השגריר */
+const ambName = new URLSearchParams(location.search).get('s');
+if (ambName) {
+  const b = document.getElementById('ambBanner');
+  b.textContent = '🥾 הגעתם לכאן דרך ' + ambName + ' — שגריר/ת הקמפיין שלנו בשביל';
+  b.classList.add('show');
+}
+
+/* ---- שיתוף ---- */
+let pageUrl = CAMPAIGN.pageUrl || location.href.split('?')[0];
+if (ambName) pageUrl += '?s=' + encodeURIComponent(ambName);
+const fullShare = CAMPAIGN.shareText + '\n' + pageUrl;
+document.getElementById('shareWa').href = 'https://wa.me/?text=' + encodeURIComponent(fullShare);
+document.getElementById('shareFb').href = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(pageUrl);
+document.getElementById('ambWa').href = 'https://wa.me/' + CAMPAIGN.waAmbassador + '?text=' +
+  encodeURIComponent('היי חני! התארחתי אצלכם בבית חב"ד הערבה ואשמח להיות שגריר/ה בקמפיין 🥾💛');
+document.getElementById('donateWa').href = 'https://wa.me/' + CAMPAIGN.waAmbassador + '?text=' +
+  encodeURIComponent('היי חני! מעוניין/ת לתרום לבית חב"ד הערבה ויש לי שאלה 💛');   /* ★ זיפ 48: נוסח לבקשת חני */
+document.getElementById('footerWa').href = document.getElementById('donateWa').href;   /* ★ זיפ 48 */
+/* ★ זיפ 50: שני ערוצים אישיים לחני — תקלת תשלום, ומילה טובה/דש */
+document.getElementById('faqWaPay').href = 'https://wa.me/' + CAMPAIGN.waAmbassador + '?text=' +
+  encodeURIComponent('היי חני! ניסיתי לתרום לבית חב"ד הערבה ונתקלתי בבעיה בהעברת התשלום 🙏');
+document.getElementById('faqWaHello').href = 'https://wa.me/' + CAMPAIGN.waAmbassador + '?text=' +
+  encodeURIComponent('היי חני! התארחתי אצלכם בבית חב"ד הערבה ורציתי לשלוח דש ומילה טובה 💛');
+document.getElementById('floatWa').href = document.getElementById('donateWa').href;   /* ★ זיפ 52 */
+document.getElementById('copyBank').addEventListener('click', async (e) => {
+  const txt = 'העברה בנקאית לעמותת בית חב"ד ערבה\nבנק דיסקונט (11), סניף 517, חשבון 135441023\nלקבלה מוכרת למס (46א) — לשלוח אסמכתא בוואטסאפ לרב משה: 054-5458770';
+  try{ await navigator.clipboard.writeText(txt); e.target.textContent = '✅ הועתק! אפשר להדביק ולשלוח'; setTimeout(()=>e.target.textContent='📋 העתקת פרטי החשבון', 2500); }
+  catch(err){ prompt('העתיקו את הפרטים:', txt); }
+});
+document.getElementById('copyLink').addEventListener('click', async () => {
+  try {
+    await navigator.clipboard.writeText(fullShare);
+    const m = document.getElementById('copiedMsg');
+    m.classList.add('show');
+    setTimeout(() => m.classList.remove('show'), 2500);
+  } catch(e) { prompt('העתיקו את הקישור:', pageUrl); }
+});
+
+/* ---- פופ-אפ תודה אחרי תרומה ----
+   ב-Grow, בהגדרות כל קישור תשלום, יש שדה "כתובת הפניה לאחר תשלום מוצלח" (Thank you / redirect URL).
+   יש להזין שם: pageUrl + "?thanks=1" (למשל https://chabad-arava-campain.netlify.app/?thanks=1)
+   כך שאחרי תשלום מוצלח הדף נפתח מחדש עם הפרמטר, והפופ-אפ נפתח אוטומטית.
+   אם גם אפשר להוסיף בכתובת ההפניה את שם התורם (לבדוק מול גרו אם נתמך), למשל ?thanks=1&name=דנה — הפופ-אפ יפנה בשם. בלי הפרמטר יוצג פנייה כללית. */
+/* קונפטי חגיגי בפתיחת פופ-אפ התודה */
+function fireConfetti(){
+  if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const colors = ['#c9a24b','#f07b3f','#8fc1e3','#7d9b57','#e6c06c','#d95f2b','#fff2cf'];
+  const hearts = ['💛','🧡','✨'];
+  for (let i=0;i<44;i++){
+    const el = document.createElement('div');
+    el.className = 'confetti-piece';
+    if (i % 6 === 0){
+      el.textContent = hearts[i % hearts.length];
+      el.style.width='auto'; el.style.height='auto'; el.style.background='none';
+      el.style.fontSize = (13 + Math.floor(Math.random()*8)) + 'px';
+    } else {
+      el.style.background = colors[Math.floor(Math.random()*colors.length)];
+      el.style.borderRadius = (Math.random()<.5) ? '2px' : '50%';
+    }
+    el.style.left = Math.round(Math.random()*100) + 'vw';
+    const dur = 2.1 + Math.random()*1.8, delay = Math.random()*0.7;
+    el.style.animation = 'confettiFall ' + dur.toFixed(2) + 's linear ' + delay.toFixed(2) + 's forwards';
+    document.body.appendChild(el);
+    setTimeout(()=>el.remove(), (dur+delay)*1000 + 300);
+  }
+}
+let thanksShown = false;
+function showThanks(name){
+  if (thanksShown) return;                 /* פעם אחת בלבד לכל ביקור */
+  thanksShown = true;
+  document.getElementById('thanksGreeting').textContent =
+    (name && String(name).trim()) ? (String(name).trim() + ' היקר/ה,') : 'ידיד/ה יקר/ה,';
+  document.getElementById('thanksOverlay').classList.add('show');
+  fireConfetti();
+}
+window.showThanks = showThanks;
+
+/* טריגר 1 — חזרה מגרו עם ?thanks=1 (הדרך הרשמית, מומלצת) */
+const thanksParams = new URLSearchParams(location.search);
+if (thanksParams.get('thanks') === '1') showThanks(thanksParams.get('name'));
+
+/* טריגר 2 — גיבוי: חזרה ללשונית האתר אחרי ששלחנו את התורם לתשלום בגרו.
+   מוצג רק אם היה במסך התשלום זמן מספיק (≥18 שניות) — כדי לא להיפתח בטעות. */
+window._payStart = 0;
+window.addEventListener('focus', () => {
+  if (window._payStart && !thanksShown && (Date.now() - window._payStart > 18000)){
+    window._payStart = 0;
+    showThanks(window._donorName);
+  }
+});
+
+document.getElementById('thanksClose').addEventListener('click', () => document.getElementById('thanksOverlay').classList.remove('show'));
+document.getElementById('thanksOverlay').addEventListener('click', (e) => { if (e.target.id === 'thanksOverlay') e.target.classList.remove('show'); });
+
+/* ---- חשיפה בגלילה (רק אם הדפדפן תומך — אחרת הכל גלוי מראש) ---- */
+if ('IntersectionObserver' in window) {
+  document.documentElement.classList.add('js');
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  /* רשת ביטחון: אחרי 2.5 שניות הכל גלוי בכל מקרה */
+  setTimeout(() => document.querySelectorAll('.reveal:not(.in)').forEach(el => el.classList.add('in')), 2500);
+}
+</script>
+</body>
+</html>
